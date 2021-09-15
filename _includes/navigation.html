@@ -1,6 +1,6 @@
 <nav>
 	<ol class="main-content">
-		<li><a href="{{ site.url }}">home</a>
+		<li><a href="{{ site.baseurl }}">home</a>
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 {% for crumb in crumbs offset: 1 %}
 	{% if forloop.last %}
