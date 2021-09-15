@@ -9,10 +9,6 @@
 body {
 	color: #333;
 }
-blockquote {
-    color: var(--ubuntu-warm-grey);
-    border-left: 0.3rem solid var(--ubuntu-warm-grey-10);
-}
 
 .page-header {
     color: #fff;
@@ -47,6 +43,10 @@ nav ol.main-content li:before {
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     color: var(--ubuntu-canonical-aubergine);
+}
+.main-content blockquote {
+    color: var(--ubuntu-warm-grey);
+    border-left: 0.3rem solid var(--ubuntu-warm-grey-10);
 }
 
 a {
