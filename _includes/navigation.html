@@ -1,12 +1,12 @@
 <nav>
 	<ol class="main-content">
-		<li><a href="{{ site.github.repository_url }}">Home</a>
+		<li><a href="{{ site.github.repository_url }}">home</a>
 		{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 		{% for crumb in crumbs offset: 1 %}
   		{% if forloop.last %}
 		<li>{{ page.breadcrumb | page.title }}
   		{% else %}
-		<li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+		<li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a>
 		{% endif %}
 		{% endfor %}
 	</ol>
