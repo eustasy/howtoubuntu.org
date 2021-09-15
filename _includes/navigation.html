@@ -1,6 +1,13 @@
 <nav class="main-content">
 	<ol>
-		<li><a href="{{ site.github.repository_url }}">Homepage</a>
-		<li><a href="https://lewisgoddard.github.io/pages-test/about-ubuntu-20-04-focal-fossa">About Ubuntu 20.04 Focal Fossa</a>
+		<li><a href="{{ site.github.repository_url }}">Home</a>
+		{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+		{% for crumb in crumbs offset: 1 %}
+  		{% if forloop.last %}
+		<li>{{ page.title }}
+  		{% else %}
+		<li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+		{% endif %}
+		{% endfor %}
 	</ol>
 </nav>
