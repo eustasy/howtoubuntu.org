@@ -2,13 +2,10 @@
 
 ## Ubuntu 20.04.3 LTS (Focal Fossa)
 
-{:.text-center}
 [Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download}
 
-{:.subbtn}
 [Install Ubuntu 20.04](https://howtoubuntu.org/how-to-install-ubuntu-18-04-focal-fossa)
 
-{:.subbtn}
 [After Installing Ubuntu 20.04](https://howtoubuntu.org/things-to-do-after-installing-ubuntu-20-04-focal-fossa)
 
 ### Release Date
