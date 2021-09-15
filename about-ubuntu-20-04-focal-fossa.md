@@ -1,6 +1,8 @@
 # About Ubuntu 20.04 Focal Fossa
 
 ## Ubuntu 20.04.3 LTS (Focal Fossa)
+
+{:..text-center}
 [Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download}
 
 {:.subbtn}
