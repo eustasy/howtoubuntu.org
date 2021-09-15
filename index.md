@@ -1,4 +1,4 @@
-## How to _______ Ubuntu
+## How to \_\_\_\_\_\_\_ Ubuntu
 
 You can use the [editor on GitHub](https://github.com/lewisgoddard/pages-test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
