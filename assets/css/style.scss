@@ -45,6 +45,9 @@ a {
     color: var(--ubuntu-orange);
 }
 
+.btn {
+	font-weight: bold;
+}
 .btn.download, .btn.download:hover  {
 	color: var(--ubuntu-white);
 	background: var(--ubuntu-orange);
