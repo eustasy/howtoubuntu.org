@@ -9,6 +9,10 @@
 body {
 	color: #333;
 }
+blockquote {
+    color: var(--ubuntu-warm-grey);
+    border-left: 0.3rem solid var(--ubuntu-warm-grey-10);
+}
 
 .page-header {
     color: #fff;
