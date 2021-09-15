@@ -15,7 +15,9 @@
 
 
 nav {
-    background: var(--ubuntu-warm-grey-10);
+	background: var(--ubuntu-warm-grey-10);
+	border-bottom: 1px solid var(--ubuntu-warm-grey-20);
+	border-top: 1px solid var(--ubuntu-warm-grey-20);
 }
 nav ol.main-content {
 	list-style-type: none;
