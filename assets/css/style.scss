@@ -13,11 +13,26 @@
     background-image: linear-gradient(120deg, var(--ubuntu-canonical-aubergine), var(--ubuntu-orange));
 }
 
-nav ol {
-	list-style-type: none;
+
+nav {
+    background: var(--ubuntu-warm-grey-10);
 }
-nav ol li {
-	display: inline-block;
+nav ol.main-content {
+	list-style-type: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+nav ol.main-content li {
+    display: inline-block;
+	padding: 0.5rem;
+}
+nav ol.main-content li:first-child {
+    padding-left: 0;
+}
+nav ol.main-content li:before {
+    content: "\\\2003";
+    display: inline-block;
+    color: var(--ubuntu-warm-grey-50);
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
