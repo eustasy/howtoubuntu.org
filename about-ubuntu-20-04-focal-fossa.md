@@ -6,7 +6,7 @@ title: About Ubuntu 20.04 Focal Fossa
 
 [Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download}
 
-[Install Ubuntu 20.04](https://howtoubuntu.org/how-to-install-ubuntu-18-04-focal-fossa)
+[Install Ubuntu 20.04](https://howtoubuntu.org/how-to-install-ubuntu-20-04-focal-fossa)
 
 [After Installing Ubuntu 20.04](https://howtoubuntu.org/things-to-do-after-installing-ubuntu-20-04-focal-fossa)
 
