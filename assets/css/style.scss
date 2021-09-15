@@ -22,16 +22,16 @@ a {
 }
 
 .btn.download, .btn.download:hover  {
-	color: #ffffff;
+	color: var(--ubuntu-white);
 	background: var(--ubuntu-orange);
 	border: 1px solid #cc3703;
-	padding: 3%;
-	border-radius: 3px;
-	display: inline-block;
 	margin: 0 auto;
 	text-align: center;
 }
 .subbtn {
     margin: 0;
+    text-align: center;
+}
+.text-center {
     text-align: center;
 }
