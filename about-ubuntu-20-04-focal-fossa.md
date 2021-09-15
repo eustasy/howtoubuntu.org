@@ -23,7 +23,7 @@ The first letter of the adjectives always match that of the animals. Like the an
 Ubuntu release have always had the code-naming convention of an animal name as the second part, preceded by an adjective beginning with the same letter. Apart from the first two releases (back in 2004/5), they have been working through the alphabet (starting at B and missing C). While the animals honored in this way are not necessarily unheard of, many of them are either uncommon or infamous in some way.
 
 > "The fossa is the largest mammalian carnivore on Madagascar and has been compared to a small cougar, as it has convergently evolved many cat-like features. Adults have a head-body length of 70–80 cm (28–31 in) and weigh between 5.5 and 8.6 kg (12 and 19 lb), with the males larger than the females. It has semi-retractable claws (meaning it can extend but not retract its claws fully) and flexible ankles that allow it to climb up and down trees head-first, and also support jumping from tree to tree. A larger relative of the species, Cryptoprocta spelea, probably became extinct before 1400."
-— <a href="https://en.wikipedia.org/wiki/Fossa_(animal)">Wikipedia</a></cite>
+— <a href="https://en.wikipedia.org/wiki/Fossa_(animal)">Wikipedia</a>
     
 #### Past Releases
 			
