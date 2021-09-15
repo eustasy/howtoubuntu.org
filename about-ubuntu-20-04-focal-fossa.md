@@ -1,9 +1,9 @@
 # About Ubuntu 20.04 Focal Fossa
 
 ## Ubuntu 20.04.3 LTS (Focal Fossa)
-<a class="btn download" href="https://www.ubuntu.com/download/desktop">Download Ubuntu</a>
+[Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download}
 
-<a title="Install Ubuntu 20.04 Focal Fossa" href="https://howtoubuntu.org/how-to-install-ubuntu-18-04-focal-fossa">Install Ubuntu 20.04</a> &nbsp;&middot;&nbsp; <a title="After Installing Ubuntu 20.04 Focal Fossa" href="https://howtoubuntu.org/things-to-do-after-installing-ubuntu-20-04-focal-fossa">After Installing Ubuntu 20.04</a>
+[Install Ubuntu 20.04](https://howtoubuntu.org/how-to-install-ubuntu-18-04-focal-fossa) &nbsp;&middot;&nbsp; [After Installing Ubuntu 20.04](https://howtoubuntu.org/things-to-do-after-installing-ubuntu-20-04-focal-fossa)
 
 ### Release Date
 Ubuntu 20.04 <a title="Ubuntu 20.04 Focal Fossa Release Schedule" href="https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule">was released</a> on Thursday the 23rd of April 2020. Since then Ubuntu 20.04 Focal Fossa has provided millions of users all over the world with a free, stable, secure operating system. Future point releases will reoccur every 6 months (you can upgrade as easily as updating, it just takes a little longer) in April and October.
