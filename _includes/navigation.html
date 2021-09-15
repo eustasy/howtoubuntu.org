@@ -1,5 +1,5 @@
-<nav class="main-content">
-	<ol>
+<nav>
+	<ol class="main-content">
 		<li><a href="{{ site.github.repository_url }}">Home</a>
 		{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 		{% for crumb in crumbs offset: 1 %}
