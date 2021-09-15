@@ -1,6 +1,6 @@
 ---
 title: About Ubuntu 20.04 Focal Fossa
-breadcrumb: 20.04 Focal Fossa
+breadcrumb: 20.04 focal fossa
 ---
 
 ## Download Ubuntu 20.04.3 LTS (Focal Fossa)
