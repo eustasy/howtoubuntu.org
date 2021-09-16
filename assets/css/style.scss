@@ -50,12 +50,13 @@ nav ol.main-content li:last-child:before {
     content: "";
 }
 nav svg {
+	fill: var(--ubuntu-warm-grey);
 	max-height: 1rem;
 	max-width: 1rem;
-	fill: var(--ubuntu-warm-grey);
+	transition: 300ms fill ease;
 }
 nav a:hover svg {
-    fill: var(--ubuntu-orange);
+	fill: var(--ubuntu-orange);
 }
 
 /* $Content */
