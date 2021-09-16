@@ -1,5 +1,4 @@
 ---
-layout: homepage
 ---
 
 ## How to \_\_\_\_\_\_\_ Ubuntu
