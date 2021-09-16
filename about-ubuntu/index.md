@@ -23,7 +23,8 @@ breadcrumb: about ubuntu
 - Remains downloadable at [releases.ubuntu.com](https://releases.ubuntu.com/18.04.5/)
 <!--- [About Ubuntu 18.04 LTS (Bionic Beaver)]({{ '/about-ubuntu/18-04-bionic-beaver' | relative_url }}) -->
 
-### [Ubuntu Server]({{ '/about-ubuntu/server' | relative_url }})
+### Ubuntu Server
+- [About Ubuntu Server]({{ '/about-ubuntu/server' | relative_url }})
 
 ## Release & Support Cycle
 Release and support cycles are predominantly in two flavours, long and short. Short cycles practically require upgrades twice a year (similar to a modern Windows system, whereas Long cycles require major upgrades only after several years of stable operation. Because Ubuntu operates on a process of [Time Based Releases](https://wiki.ubuntu.com/TimeBasedReleases) with set deadlines, rather than waiting for all known issues to be resolved, both the release date and the presence of issues and bugs are reliable.
