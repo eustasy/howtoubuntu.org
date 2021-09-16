@@ -84,6 +84,9 @@ nav a:hover svg {
 	margin: 0 auto;
 }
 .btn.download.magnet, .btn.download.magnet:hover  {
+	background: var(--ubuntu-warm-grey);
+}
+.btn.download.archive, .btn.download.archive:hover  {
 	background: var(--eustasy-error-text);
 }
 .btn svg {
