@@ -148,11 +148,5 @@ nav ol.main-content li:before {
 	left: 1rem;
 	top: 1.1rem;
 }
-/* Fix YouTube alignment.
-	As it HAS to be 4px taller than all the others,
-	move it 2px further up. If it won't be the same,
-	it will damn well be symmetrical.
-*/
-.youtube #___ytsubscribe_0 { top: 26px !important; }
 /* Responsiveness, yay! */
-@media only screen and (max-width: 999px) { .network .type { display: none; } }
+@media only screen and (max-width: 25rem) { .network .type { display: none; } }
