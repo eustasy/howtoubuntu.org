@@ -5,7 +5,7 @@ breadcrumb: 18.04 bionic beaver
 
 ## Download Ubuntu 18.04.5 LTS (Bionic Beaver)
 
-[Archived Downloads](https://releases.ubuntu.com/18.04.5/){:.btn.download.magnet}
+[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/18.04.5/){:.btn.download.archive}
 
 [Install Ubuntu 18.04](https://howtoubuntu.org/how-to-install-ubuntu-18-04-bionic-beaver) &nbsp;&middot;&nbsp; [After Installing Ubuntu 18.04](https://howtoubuntu.org/things-to-do-after-installing-ubuntu-18-04-bionic-beaver)
 
