@@ -3,23 +3,27 @@ title: About Ubuntu
 breadcrumb: about ubuntu
 ---
 
-## Download Ubuntu
+## Ubuntu Releases
 
-[Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download}
+### Ubuntu 20.04 LTS (Focal Fossa)
+- Supported until April 2025.
+- Recommended for most users.
+- [About Ubuntu 20.04 LTS (Focal Fossa)]({{ '/about-ubuntu/20-04-focal-fossa' | relative_url }})
 
-## [Ubuntu 20.04 LTS (Focal Fossa)]({{ '/about-ubuntu/20-04-focal-fossa' | relative_url }})
-Recommended for most users.
+### Ubuntu 21.04 (Hirsute Hippo)
+- Supported until January 2022.
+- Recommended for users who want the latest software and hardware support.
+- [About Ubuntu 21.04 (Hirsute Hippo)]({{ '/about-ubuntu/21-04-hirsute-hippo' | relative_url }})
 
-## [Ubuntu 21.04 (Hirsute Hippo)]({{ '/about-ubuntu/21-04-hirsute-hippo' | relative_url }})
-Recommended for users who want the latest software and hardware support.
+### Ubuntu 18.04 LTS (Bionic Beaver)
+- Supported until April 2023.
+- No longer recommended for new installs.
+- It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported through its lifespan.
+- Users are recommended to use the newer LTS release that is less dates, while still being a mature system.
+- Remains downloadable at [releases.ubuntu.com](https://releases.ubuntu.com/18.04.5/)
+<!--- [About Ubuntu 18.04 LTS (Bionic Beaver)]({{ '/about-ubuntu/18-04-bionic-beaver' | relative_url }}) -->
 
-## [Ubuntu 18.04 LTS (Bionic Beaver)](https://releases.ubuntu.com/18.04.5/)
-No longer generally recommended.
-
-### Long Term Support
-Ubuntu 18.04 Bionic Beaver is a LTS release, and will be supported for 5 Years until <a href="https://wiki.ubuntu.com/Releases">April 2023</a>. It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported through its lifespan. Users are recommended to use the newer LTS release that is less dates, while still being a mature system.
-
-## [Ubuntu Server]({{ '/about-ubuntu/server' | relative_url }})
+### [Ubuntu Server]({{ '/about-ubuntu/server' | relative_url }})
 
 ## Release & Support Cycle
 Release and support cycles are predominantly in two flavours, long and short. Short cycles practically require upgrades twice a year (similar to a modern Windows system, whereas Long cycles require major upgrades only after several years of stable operation. Because Ubuntu operates on a process of [Time Based Releases](https://wiki.ubuntu.com/TimeBasedReleases) with set deadlines, rather than waiting for all known issues to be resolved, both the release date and the presence of issues and bugs are reliable.
@@ -31,6 +35,16 @@ This has lead to a common practice of many users administering large fleets: run
 
 <div class="u-hide--small" id="server-desktop-eol"><svg class="chart" width="969" height="276"><g class="gantt-chart" width="969" height="276" transform="translate(150, 0)"><rect class=" chart__bar--orange" y="0" transform="translate(38.88076028989471,206)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--orange" y="0" transform="translate(116.74880350061535,177)" height="26" width="97.25516204020236"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(136.1359223300971,206)" height="26" width="97.36168467113362"></rect><rect class=" chart__bar--orange" y="0" transform="translate(194.51032408040476,148)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(214.00396554081772,177)" height="26" width="97.36168467113362"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(233.4976070012307,206)" height="26" width="116.74880350061531"></rect><rect class=" chart__bar--orange" y="0" transform="translate(272.37836729112536,119)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(291.76548612060714,148)" height="26" width="97.36168467113362"></rect><rect class=" chart__bar--grey" y="0" transform="translate(291.8720087515383,90)" height="26" width="29.71981402980998"></rect><rect class=" chart__bar--grey" y="0" transform="translate(311.2591275810201,61)" height="26" width="29.724252472765386"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(311.36565021195133,177)" height="26" width="116.74880350061534"></rect><rect class=" chart__bar--grey" y="0" transform="translate(330.75276904143306,32)" height="26" width="29.71981402980998"></rect><rect class=" chart__bar--orange" y="0" transform="translate(350.1398878709148,3)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(369.63352933132774,119)" height="26" width="97.36168467113367"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(389.12717079174075,148)" height="26" width="194.5103240804047"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(447.39504991111716,3)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(466.9952140024614,119)" height="26" width="194.5103240804047"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(544.6502119513195,3)" height="26" width="195.46902775878573"></rect><g class="x axis" transform="translate(0, 236)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><g class="tick" opacity="1" transform="translate(29.79816194904052,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2014</text></g><g class="tick" opacity="1" transform="translate(107.55968252882994,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2016</text></g><g class="tick" opacity="1" transform="translate(185.42772573955057,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2018</text></g><g class="tick" opacity="1" transform="translate(263.18924631934,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2020</text></g><g class="tick" opacity="1" transform="translate(341.05728953006064,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2022</text></g><g class="tick" opacity="1" transform="translate(418.81881010985,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2024</text></g><g class="tick" opacity="1" transform="translate(496.68685332057066,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2026</text></g><g class="tick" opacity="1" transform="translate(574.4483739003601,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2028</text></g><g class="tick" opacity="1" transform="translate(652.3164171110807,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2030</text></g><g class="tick" opacity="1" transform="translate(730.0779376908702,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2032</text></g></g><g class="y axis" fill="none" font-size="10" font-family="sans-serif" text-anchor="start"><g class="tick" opacity="1" transform="translate(0,16.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 22.04 LTS</text></g><g class="tick" opacity="1" transform="translate(0,45.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em">Ubuntu 21.10</text></g><g class="tick" opacity="1" transform="translate(0,74.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em">Ubuntu 21.04</text></g><g class="tick" opacity="1" transform="translate(0,103.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em">Ubuntu 20.10</text></g><g class="tick" opacity="1" transform="translate(0,132.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 20.04 LTS</text></g><g class="tick" opacity="1" transform="translate(0,161.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 18.04 LTS</text></g><g class="tick" opacity="1" transform="translate(0,190.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 16.04 LTS</text></g><g class="tick" opacity="1" transform="translate(0,219.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 14.04 LTS</text></g></g></g></svg><svg class="chart-key" width="400" height="96"><g class="chart-key__row" transform="translate(0, 0)" height="24"><rect class="chart__bar--orange" width="18" height="14" y="0"></rect><text class="chart-key__label" x="24" y="13">Hardware and maintenance updates</text></g><g class="chart-key__row" transform="translate(0, 21)" height="24"><rect class="chart__bar--orange-light" width="18" height="14" y="0"></rect><text class="chart-key__label" x="24" y="13">Maintenance updates</text></g><g class="chart-key__row" transform="translate(0, 42)" height="24"><rect class="chart__bar--grey" width="18" height="14" y="0"></rect><text class="chart-key__label" x="24" y="13">Interim release Standard Support</text></g><g class="chart-key__row" transform="translate(0, 63)" height="24"><rect class="chart__bar--aubergine" width="18" height="14" y="0"></rect><text class="chart-key__label" x="24" y="13">Extended Security Maintenance (ESM)</text></g></svg></div>
 
+## Naming Ubuntu Releases
+
+### Numbers
+The numbers in the name relate to the year and month of release. 20.04 was released on the 4th month of the year 2020. Ubuntu 19.10 was released on the 10th month (October) of 2019. Releases are scheduled every six months, numbered as 18.04, 18.10, 19.04, 19.10, 20.04, etc. Occaisionally, you may see a third number in a LTS release name: these are point releases, that include newer hardware support from non-LTS releases that have been backported.
+
+### Adjectives
+The first letter of the adjectives always match that of the animals. Like the animals, these are usually lesser known, obscure, or infamous in dome way.
+
+### Animals
+Ubuntu release have always had the code-naming convention of an animal name as the second part, preceded by an adjective beginning with the same letter. Apart from the first two releases (back in 2004/5), they have been working through the alphabet (starting at B and missing C). While the animals honored in this way are not necessarily unheard of, many of them are either uncommon or infamous in some way.
     
 ### Past Releases
 **Bold** indicates a currently supported release.
