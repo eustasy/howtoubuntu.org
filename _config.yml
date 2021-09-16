@@ -1,6 +1,8 @@
-theme: jekyll-theme-cayman
 title: How to _______ Ubuntu
 description: Ubuntu Tutorials and How to's
 url: "https://lewisgoddard.github.io" # the base hostname & protocol for your site
+
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
