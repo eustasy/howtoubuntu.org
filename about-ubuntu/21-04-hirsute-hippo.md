@@ -14,9 +14,13 @@ breadcrumb: 21.04 hirsute hippo
 <!--
 ## Release Date
 Ubuntu 21.04 [was released](https://wiki.ubuntu.com/HirsuteHippo/ReleaseSchedule){:title="Ubuntu 21.04 Hirsute Hippo Release Schedule"} on Thursday the 23rd of April 2020. Since then Ubuntu 21.04 Hirsute Hippo has provided millions of users all over the world with a free, stable, secure operating system. Future point releases will reoccur every 6 months (you can upgrade as easily as updating, it just takes a little longer) in April and October.
+-->
 
-## Long Term Support
-Ubuntu 21.04 Hirsute Hippo is a LTS release, and will be supported for 5 Years until <a href="https://wiki.ubuntu.com/Releases">April 2025</a>. That makes it good for people who don't want to constantly change or to have to pay for upgrades. It is also a solid option for business or servers that don't want to major upgrades too often.
+### Non-LTS Release
+Ubuntu 21.04 Hirsute Hippo is _not_ an LTS release, and as such will only be supported until <a href="https://wiki.ubuntu.com/Releases">January 2022</a>. It will be replaced by Ubuntu 21.10 Impish Indri the preceding October, in 2021. This means a user of the non-LTS release has to upgrade approximately every six months to keep in line with security updates.
+
+
+<!--
 
 ## Naming Ubuntu Releases
 
