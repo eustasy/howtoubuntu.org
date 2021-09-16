@@ -64,6 +64,9 @@ a {
 	border: 1px solid #cc3703;
 	margin: 0 auto;
 }
+.btn.download.magnet, .btn.download.magnet:hover  {
+	background: var(--eustasy-error-text);
+}
 
 .site-footer {
     border-top: 1px solid var(--ubuntu-warm-grey-20);
