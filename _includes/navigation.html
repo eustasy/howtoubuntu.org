@@ -9,6 +9,6 @@
 		<li><a href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a>
 	{% endif %}
 {% endfor %}
-		<li style="float:right;">{% include search.svg.html %}
+		<li style="float:right;"><a href="{{ site.baseurl }}/search">{% include search.svg.html %}</a>
 	</ol>
 </nav>
