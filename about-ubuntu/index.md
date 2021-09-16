@@ -10,14 +10,8 @@ breadcrumb: about ubuntu
 ## [Ubuntu 20.04 LTS (Focal Fossa)]({{ '/about-ubuntu/20-04-focal-fossa' | relative_url }})
 Recommended for most users.
 
-### Long Term Support
-Ubuntu 20.04 Focal Fossa is a LTS release, and will be supported for 5 Years until <a href="https://wiki.ubuntu.com/Releases">April 2025</a>. That makes it good for people who don't want to constantly change or to have to pay for upgrades. It is also a solid option for business or servers that don't want to major upgrades too often.
-
 ## [Ubuntu 21.04 (Hirsute Hippo)]({{ '/about-ubuntu/21-04-hirsute-hippo' | relative_url }})
 Recommended for users who want the latest software and hardware support.
-
-### Non-LTS Release
-Ubuntu 21.04 Hirsute Hippo is _not_ an LTS release, and as such will only be supported until <a href="https://wiki.ubuntu.com/Releases">January 2022</a>. It will be replaced by Ubuntu 21.10 Impish Indri the preceding October, in 2021. This means a user of the non-LTS release has to upgrade approximately every six months to keep in line with security updates.
 
 ## [Ubuntu 18.04 LTS (Bionic Beaver)](https://releases.ubuntu.com/18.04.5/)
 No longer generally recommended.
@@ -36,3 +30,41 @@ Release and support cycles are predominantly in two flavours, long and short. Sh
 This has lead to a common practice of many users administering large fleets: running LTS releases only after waiting several months for the first of the point releases, usually released in August after the April release in any even-numbered year. These are then run in a leapfrog fashion to avoid upgrading entire fleets of machines on a more regular basis. Alternating LTS on 100 computers result in ~25 upgrades a year, versus 200 upgrades a year on a non-lts release.
 
 <div class="u-hide--small" id="server-desktop-eol"><svg class="chart" width="969" height="276"><g class="gantt-chart" width="969" height="276" transform="translate(150, 0)"><rect class=" chart__bar--orange" y="0" transform="translate(38.88076028989471,206)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--orange" y="0" transform="translate(116.74880350061535,177)" height="26" width="97.25516204020236"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(136.1359223300971,206)" height="26" width="97.36168467113362"></rect><rect class=" chart__bar--orange" y="0" transform="translate(194.51032408040476,148)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(214.00396554081772,177)" height="26" width="97.36168467113362"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(233.4976070012307,206)" height="26" width="116.74880350061531"></rect><rect class=" chart__bar--orange" y="0" transform="translate(272.37836729112536,119)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(291.76548612060714,148)" height="26" width="97.36168467113362"></rect><rect class=" chart__bar--grey" y="0" transform="translate(291.8720087515383,90)" height="26" width="29.71981402980998"></rect><rect class=" chart__bar--grey" y="0" transform="translate(311.2591275810201,61)" height="26" width="29.724252472765386"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(311.36565021195133,177)" height="26" width="116.74880350061534"></rect><rect class=" chart__bar--grey" y="0" transform="translate(330.75276904143306,32)" height="26" width="29.71981402980998"></rect><rect class=" chart__bar--orange" y="0" transform="translate(350.1398878709148,3)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(369.63352933132774,119)" height="26" width="97.36168467113367"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(389.12717079174075,148)" height="26" width="194.5103240804047"></rect><rect class=" chart__bar--orange-light" y="0" transform="translate(447.39504991111716,3)" height="26" width="97.25516204020238"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(466.9952140024614,119)" height="26" width="194.5103240804047"></rect><rect class=" chart__bar--aubergine" y="0" transform="translate(544.6502119513195,3)" height="26" width="195.46902775878573"></rect><g class="x axis" transform="translate(0, 236)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><g class="tick" opacity="1" transform="translate(29.79816194904052,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2014</text></g><g class="tick" opacity="1" transform="translate(107.55968252882994,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2016</text></g><g class="tick" opacity="1" transform="translate(185.42772573955057,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2018</text></g><g class="tick" opacity="1" transform="translate(263.18924631934,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2020</text></g><g class="tick" opacity="1" transform="translate(341.05728953006064,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2022</text></g><g class="tick" opacity="1" transform="translate(418.81881010985,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2024</text></g><g class="tick" opacity="1" transform="translate(496.68685332057066,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2026</text></g><g class="tick" opacity="1" transform="translate(574.4483739003601,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2028</text></g><g class="tick" opacity="1" transform="translate(652.3164171110807,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2030</text></g><g class="tick" opacity="1" transform="translate(730.0779376908702,0)"><line stroke="currentColor" y2="6" y1="-256"></line><text fill="currentColor" y="9" dy="0.71em">2032</text></g></g><g class="y axis" fill="none" font-size="10" font-family="sans-serif" text-anchor="start"><g class="tick" opacity="1" transform="translate(0,16.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 22.04 LTS</text></g><g class="tick" opacity="1" transform="translate(0,45.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em">Ubuntu 21.10</text></g><g class="tick" opacity="1" transform="translate(0,74.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em">Ubuntu 21.04</text></g><g class="tick" opacity="1" transform="translate(0,103.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em">Ubuntu 20.10</text></g><g class="tick" opacity="1" transform="translate(0,132.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 20.04 LTS</text></g><g class="tick" opacity="1" transform="translate(0,161.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 18.04 LTS</text></g><g class="tick" opacity="1" transform="translate(0,190.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 16.04 LTS</text></g><g class="tick" opacity="1" transform="translate(0,219.5)"><line stroke="currentColor" x2="0"></line><text fill="currentColor" x="-150" dy="0.32em" class="chart__label--bold">Ubuntu 14.04 LTS</text></g></g></g></svg><svg class="chart-key" width="400" height="96"><g class="chart-key__row" transform="translate(0, 0)" height="24"><rect class="chart__bar--orange" width="18" height="14" y="0"></rect><text class="chart-key__label" x="24" y="13">Hardware and maintenance updates</text></g><g class="chart-key__row" transform="translate(0, 21)" height="24"><rect class="chart__bar--orange-light" width="18" height="14" y="0"></rect><text class="chart-key__label" x="24" y="13">Maintenance updates</text></g><g class="chart-key__row" transform="translate(0, 42)" height="24"><rect class="chart__bar--grey" width="18" height="14" y="0"></rect><text class="chart-key__label" x="24" y="13">Interim release Standard Support</text></g><g class="chart-key__row" transform="translate(0, 63)" height="24"><rect class="chart__bar--aubergine" width="18" height="14" y="0"></rect><text class="chart-key__label" x="24" y="13">Extended Security Maintenance (ESM)</text></g></svg></div>
+
+    
+### Past Releases
+**Bold** indicates a currently supported release.
+			
+- Ubuntu 4.10 (Warty Warthog)
+- Ubuntu 5.04 (Hoary Hedgehog)
+- Ubuntu 5.10 (Breezy Badger)
+- Ubuntu 6.06 LTS (Dapper Drake)
+- Ubuntu 6.10 (Edgy Eft)
+- Ubuntu 7.04 (Feisty Fawn)
+- Ubuntu 7.10 (Gutsy Gibbon)
+- Ubuntu 8.04 LTS (Hardy Heron)
+- Ubuntu 8.10 (Intrepid Ibex)
+- Ubuntu 9.04 (Jaunty Jackalope)
+- Ubuntu 9.10 (Karmic Koala)
+- Ubuntu 10.04 LTS (Lucid Lynx)
+- Ubuntu 10.10 (Maverick Meerkat)
+- Ubuntu 11.04 (Natty Narwhal)
+- Ubuntu 12.04 LTS (Precise Pangolin)
+- Ubuntu 12.10 (Quantal Quetzal)
+- Ubuntu 13.04 (Raring Ringtail)
+- Ubuntu 13.10 (Saucy Salamander)
+- Ubuntu 14.04 LTS (Trusty Tahr)
+- Ubuntu 14.10 (Utopic Unicorn)
+- Ubuntu 15.04 (Vivid Vervet)
+- Ubuntu 15.10 (Wily Werewolf)
+- Ubuntu 16.04 LTS (Xenial Xerus)
+- Ubuntu 16.10 (Yakkety Yak)
+- Ubuntu 17.04 (Zesty Zapus)
+- Ubuntu 17.10 (Artful Aardvark)
+- **Ubuntu 18.04 LTS (Bionic Beaver)**
+- Ubuntu 18.10 (Cosmic Cuttlefish)
+- Ubuntu 19.04 (Disco Dingo)
+- Ubuntu 19.10 (Eoan Ermine)
+- **Ubuntu 21.04 LTS (Hirsute Hippo)**
+- Ubuntu 20.10 (Groovy Gorilla)
+- **Ubuntu 21.04 (Hirsute Hippo)**
