@@ -1,7 +1,11 @@
 <nav>
 	<ol class="main-content">
+		{% if page.layout == 'home' %}
+		<li>home
+		{% else %}
 		<li><a href="{{ site.baseurl }}">home</a>
-{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+		{% endif %}
+{% assign crumbs = page.url | split: '/' %}
 {% for crumb in crumbs offset: 1 %}
 	{% if forloop.last %}
 		<li>{{ page.breadcrumb | page.title }}
