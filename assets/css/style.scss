@@ -86,6 +86,10 @@ nav a:hover svg {
 .btn.download.magnet, .btn.download.magnet:hover  {
 	background: var(--eustasy-error-text);
 }
+.btn svg {
+	fill: var(--ubuntu-white);
+	vertical-align: middle;
+}
 
 /* $Charts */
 .chart__bar--orange {
