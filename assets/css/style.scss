@@ -80,14 +80,16 @@ nav a:hover svg {
 .btn.download, .btn.download:hover  {
 	color: var(--ubuntu-white);
 	background: var(--ubuntu-orange);
-	border: 1px solid #cc3703;
+	border: 2px solid var(--ubuntu-orange-80);
 	margin: 0 auto;
 }
 .btn.download.magnet, .btn.download.magnet:hover  {
-	background: var(--ubuntu-warm-grey);
+	background: var(--eustasy-error-text);
+	border: 2px solid var(--eustasy-error);
 }
 .btn.download.archive, .btn.download.archive:hover  {
-	background: var(--eustasy-error-text);
+	background: var(--ubuntu-warm-grey);
+	border: 2px solid var(--ubuntu-warm-grey-80);
 }
 .btn svg {
 	fill: var(--ubuntu-white);
