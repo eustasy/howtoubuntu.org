@@ -91,6 +91,11 @@ a {
 .chart__label--bold {
 	font-weight: bold;
 }
+.x.axis line {
+    shape-rendering: crispEdges;
+    stroke: var(--ubuntu-warm-grey-50);
+    stroke-dasharray: 3 2;
+}
 
 .site-footer {
     border-top: 1px solid var(--ubuntu-warm-grey-20);
