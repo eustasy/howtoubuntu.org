@@ -107,14 +107,14 @@ nav ol.main-content li:before {
 .networks a { color: #555; }
 .network {
 	margin: 0;
-	padding: 16px 16px;
+	padding: 0.5rem;
 	position: relative;
 }
 .network:first-child {
-	border-radius: 3rem 3rem 0 0;
+	border-radius: 0.3rem 0.3rem 0 0;
 }
 .network:last-child {
-	border-radius: 0 0 3rem 3rem;
+	border-radius: 0 0 0.3rem 0.3rem;
 }
 .network iframe {
 	border: none;
@@ -123,18 +123,13 @@ nav ol.main-content li:before {
 }
 .network .box {
 	margin: 0 auto;
-	padding: 12px;
-	height: 20px;
+	padding: 0.5rem;
+	height: 1rem;
 	color: #4f4f4f;
 	clear: both;
 	text-align: right;
 	background: white;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	-webkit-transition: 300ms color ease;
-	-moz-transition: 300ms color ease;
-	-ms-transition: 300ms color ease;
-	-o-transition: 300ms color ease;
+	border-radius: 0.3rem;
 	transition: 300ms color ease;
 }
 .google { background-color: #cc3732 }
