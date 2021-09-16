@@ -54,6 +54,9 @@ nav svg {
 	max-width: 1rem;
 	fill: var(--ubuntu-warm-grey);
 }
+nav a:hover svg {
+    fill: var(--ubuntu-orange);
+}
 
 /* $Content */
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
