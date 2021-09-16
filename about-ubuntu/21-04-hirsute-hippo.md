@@ -4,12 +4,9 @@ breadcrumb: 21.04 hirsute hippo
 ---
 
 ## Download Ubuntu 21.04.3 LTS (Hirsute Hippo)
+[Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download} [Alternative Download Methods](https://ubuntu.com/download/alternative-downloads){:.btn.download.magnet}
 
-[Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download}
-
-[Install Ubuntu 21.04](https://howtoubuntu.org/how-to-install-ubuntu-21-04-hirsute-hippo)
-
-[After Installing Ubuntu 21.04](https://howtoubuntu.org/things-to-do-after-installing-ubuntu-21-04-hirsute-hippo)
+[Install Ubuntu 21.04](https://howtoubuntu.org/how-to-install-ubuntu-21-04-hirsute-hippo) &nbsp;&middot;&nbsp; [After Installing Ubuntu 21.04](https://howtoubuntu.org/things-to-do-after-installing-ubuntu-21-04-hirsute-hippo)
 
 <!--
 ## Release Date
