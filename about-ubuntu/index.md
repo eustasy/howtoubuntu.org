@@ -20,8 +20,7 @@ breadcrumb: about ubuntu
 - No longer recommended for new installs.
 - It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported through its lifespan.
 - Users are recommended to use the newer LTS release that is less dates, while still being a mature system.
-- Remains downloadable at [releases.ubuntu.com](https://releases.ubuntu.com/18.04.5/)
-<!--- [About Ubuntu 18.04 LTS (Bionic Beaver)]({{ '/about-ubuntu/18-04-bionic-beaver' | relative_url }}) -->
+- [About Ubuntu 18.04 LTS (Bionic Beaver)]({{ '/about-ubuntu/18-04-bionic-beaver' | relative_url }})
 
 ### Ubuntu Server
 - [About Ubuntu Server]({{ '/about-ubuntu/server' | relative_url }})
