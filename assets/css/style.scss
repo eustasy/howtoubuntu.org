@@ -46,6 +46,13 @@ nav ol.main-content li:before {
     display: inline-block;
     color: var(--ubuntu-warm-grey-50);
 }
+nav ol.main-content li:last-child:before {
+    content: "";
+}
+nav svg {
+    max-height: 1rem;
+    fill: var(--ubuntu-warm-grey);
+}
 
 /* $Content */
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
