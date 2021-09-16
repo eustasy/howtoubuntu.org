@@ -68,6 +68,30 @@ a {
 	background: var(--eustasy-error-text);
 }
 
+.chart__bar--orange {
+	fill: var(--ubuntu-orange);
+	stroke: var(--ubuntu-orange);
+	stroke-width: 1px;
+}
+.chart__bar--orange-light {
+	fill: var(--ubuntu-orange-20);
+	stroke: var(--ubuntu-orange);
+	stroke-width: 1px;
+}
+.chart__bar--aubergine {
+	fill: var(--ubuntu-canonical-aubergine);
+	stroke: var(--ubuntu-canonical-aubergine);
+	stroke-width: 1px;
+}
+.chart__bar--grey {
+	fill: var(--ubuntu-warm-grey);
+	stroke: var(--ubuntu-warm-grey);
+	stroke-width: 1px;
+}
+.chart__label--bold {
+	font-weight: bold;
+}
+
 .site-footer {
     border-top: 1px solid var(--ubuntu-warm-grey-20);
 }
