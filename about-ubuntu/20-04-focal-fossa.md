@@ -7,6 +7,8 @@ breadcrumb: 20.04 focal fossa
 
 [Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download}
 
+[Alternative Download Methods](https://ubuntu.com/download/alternative-downloads){:.btn.download.magnet}
+
 [Install Ubuntu 20.04](https://howtoubuntu.org/how-to-install-ubuntu-20-04-focal-fossa)
 
 [After Installing Ubuntu 20.04](https://howtoubuntu.org/things-to-do-after-installing-ubuntu-20-04-focal-fossa)
