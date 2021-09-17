@@ -79,6 +79,6 @@ Ubuntu release have always had the code-naming convention of an animal name as t
 - Ubuntu 18.10 (Cosmic Cuttlefish)
 - Ubuntu 19.04 (Disco Dingo)
 - Ubuntu 19.10 (Eoan Ermine)
-- **Ubuntu 21.04 LTS (Hirsute Hippo)**
+- **Ubuntu 21.04 LTS (Focal Fossa)**
 - Ubuntu 20.10 (Groovy Gorilla)
 - **Ubuntu 21.04 (Hirsute Hippo)**
