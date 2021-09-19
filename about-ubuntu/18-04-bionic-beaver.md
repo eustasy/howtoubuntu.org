@@ -3,9 +3,9 @@ title: About Ubuntu 18.04 Bionic Beaver
 breadcrumb: 18.04 bionic beaver
 ---
 
-## Download Ubuntu 18.04.5 LTS (Bionic Beaver)
+## Download Ubuntu 18.04.6 LTS (Bionic Beaver)
 
-[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/18.04.5/){:.btn.download.archive}
+[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/18.04.6/){:.btn.download.archive}
 
 [Install Ubuntu 18.04](https://howtoubuntu.org/how-to-install-ubuntu-18-04-bionic-beaver) &nbsp;&middot;&nbsp; [After Installing Ubuntu 18.04](https://howtoubuntu.org/things-to-do-after-installing-ubuntu-18-04-bionic-beaver)
 
