@@ -8,24 +8,24 @@ bionic:
   kernel: 4.15
   is-lts: true
   point-releases:
-  - 18.04.1
-    date: 2018-07-26
-    kernel: 4.15
-  - 18.04.2
-    date: 2019-02-14
-    kernel: 4.15
-  - 18.04.3
-    date: 2019-08-08
-    kernel: 4.15
-  - 18.04.4
-    date: 2020-02-06
-    kernel: 4.15
-  - 18.04.5
-    date: 2020-08-13
-    kernel: 5.4
-  - 18.04.6
-    date: 2021-09-15
-    kernel: 5.4
+    - version: 18.04.1
+      date: 2018-07-26
+      kernel: 4.15
+    - version: 18.04.2
+      date: 2019-02-14
+      kernel: 4.15
+    - version: 18.04.3
+      date: 2019-08-08
+      kernel: 4.15
+    - version: 18.04.4
+      date: 2020-02-06
+      kernel: 4.15
+    - version: 18.04.5
+      date: 2020-08-13
+      kernel: 5.4
+    - version: 18.04.6
+      date: 2021-09-15
+      kernel: 5.4
 
 focal:
   name: Focal Fossa
@@ -34,16 +34,16 @@ focal:
   kernel: 5.4
   is-lts: true
   point-releases:
-  - 20.04.1
+  - version: 20.04.1
     date: 2020-08-06
     kernel: 5.4
-  - 20.04.2
+  - version: 20.04.2
     date: 2021-02-04
     kernel: 5.8
-  - 20.04.3
+  - version: 20.04.3
     date: 2021-08-26
     kernel: 5.11
-  - 20.04.4
+  - version: 20.04.4
     date: 2022-02-10
 
 hirsute:
