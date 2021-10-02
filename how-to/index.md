@@ -10,7 +10,7 @@ breadcrumb: how to
 
 <hr>
 
-### [{{ page.title }}]({{ site.url }}{{ page.url }})
+### [{{ page.title }}]({{ page.url | relative_url }})
 
 {{ page.excerpt | markdownify }}
 
