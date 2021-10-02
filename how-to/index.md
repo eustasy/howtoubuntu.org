@@ -3,6 +3,8 @@ title: Tutorials
 breadcrumb: how to
 ---
 
+## Tutorials
+
 {% assign category = 'how to' %}
 
 {% for page in site.pages %}
