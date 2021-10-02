@@ -5,8 +5,8 @@ breadcrumb: how to
 
 {% assign category = 'how to' %}
 
-{% for post in site.posts %}
-	{% if post.categories contains {{category}}  %}
-		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+{% for page in site.pages %}
+	{% if page.categories contains {{category}}  %}
+		<a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 	{% endif %}
 {% endfor %}
