@@ -1,5 +1,5 @@
 ---
-title: How to Burn an ISO to a CD or DVD
+title: How to Burn an ISO to a CD or DVD in Ubuntu
 breadcrumb: burn an iso to a cd or dvd
 ---
 
