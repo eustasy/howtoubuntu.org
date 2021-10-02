@@ -10,7 +10,7 @@ breadcrumb: how to
 
 ### [{{ page.title }}]({{ page.url }})
 
-{{ post.excerpt }}
+{{ page.excerpt | markdownify }}
 
 {% endif %}
 {% endfor %}
