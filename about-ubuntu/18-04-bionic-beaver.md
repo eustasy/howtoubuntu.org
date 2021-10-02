@@ -17,4 +17,4 @@ Ubuntu 18.04 Bionic Beaver is a LTS release, and will be supported for 5 Years u
 
 ## The Beaver
 > "The beaver is a large, primarily nocturnal, semiaquatic rodent. Castor includes two extant species, the North American beaver (native to North America) and Eurasian beaver (Eurasia). Beavers are known for building dams, canals, and lodges (homes). They are the second-largest rodent in the world (after the capybara). Their colonies create one or more dams to provide still, deep water to protect against predators, and to float food and building material. The North American beaver population was once more than 60 million, but as of 1988 was 6–12 million. This population decline is the result of extensive hunting for fur, for glands used as medicine and perfume, and because the beavers' harvesting of trees and flooding of waterways may interfere with other land uses."
-— <a href="https://en.wikipedia.org/wiki/Beaver">Wikipedia</a>
+— [Wikipedia](https://en.wikipedia.org/wiki/Beaver){:title="Beaver from Wikipedia, the free encyclopedia"}
