@@ -7,6 +7,10 @@ breadcrumb: how to
 
 {% for page in site.pages %}
 {% if page.url contains 'how-to' and page.url != '/how-to/' %}
-<a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+
+### [{{ page.title }}]({{ page.url }})
+
+{{ post.excerpt }}
+
 {% endif %}
 {% endfor %}
