@@ -5,10 +5,8 @@ breadcrumb: how to
 
 ## Tutorials
 
-{% assign category = 'how to' %}
-
 {% for page in site.pages %}
-	{% if page.categories contains {{category}}  %}
+	{% if page.url contains 'how-to' and page.url != '/how-to/' %}
 		<a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 	{% endif %}
 {% endfor %}
