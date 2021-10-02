@@ -8,9 +8,10 @@ breadcrumb: how to
 {% for page in site.pages %}
 {% if page.url contains 'how-to' and page.url != '/how-to/' %}
 
+<li>
 ### [{{ page.title }}]({{ page.url }})
-
 {{ page.excerpt | markdownify }}
+</li>
 
 {% endif %}
 {% endfor %}
