@@ -1,6 +1,7 @@
 ---
 title: How to Burn an ISO to a CD or DVD in Ubuntu
 breadcrumb: burn an iso to a cd or dvd
+excerpt: Brasero can easily burn .iso files to CDs or DVDs in Ubuntu with any compatible optical drive.
 ---
 
 ## How to Burn an ISO to a CD or DVD
