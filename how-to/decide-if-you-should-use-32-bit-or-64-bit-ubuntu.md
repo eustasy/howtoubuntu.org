@@ -16,54 +16,6 @@ Since then, 64-bit has been the default option unless using an "alternative" ins
 
 32-bit and 64-bit are types of architecture, 32 works in 4 sets of 8 (the 8 being a byte), and 64 in 8 sets of 8. More bits mean that data is processed in larger chunks, resulting in greater speed and accuracy.
 
-<table id="comparison">
-<tr>
-<th><h3>32-bit</h3></th>
-<th><h3>32-bit with PAE</h3></th>
-<th><h3>64-bit</h3></th>
-</tr>
-<tr>
-<td style="color: #DF382C;">Slowest.</td>
-<td style="color: #DF382C;">Slightly Slower.</td>
-<td style="color: #38B44A;">Fastest.</td>
-</tr>
-<tr>
-<td style="color: #38B44A;">Works on older and newer CPUs.</td>
-<td style="color: #38B44A;">Works on older and newer CPUs.</td>
-<td style="color: #DF382C;">Some older CPUs will not work.</td>
-</tr>
-<tr>
-<td style="color: #38B44A;">Software more widely available.</td>
-<td style="color: #38B44A;">Software more widely available.</td>
-<td style="color: #DF382C;">Some older Software encounters difficulties..</td>
-</tr>
-<tr>
-<td style="color: #38B44A;">Drivers more widely available.</td>
-<td style="color: #38B44A;">Drivers more widely available.</td>
-<td style="color: #DF382C;">Some older Drivers encounter difficulties.</td>
-</tr>
-<tr>
-<td style="color: #38B44A;">Faster with less RAM.</td>
-<td style="color: #38B44A;">Support smaller and larger amounts of RAM.</td>
-<td style="color: #DF382C;">Decreased performance on low-RAM machines.</td>
-</tr>
-<tr>
-<td style="color: #38B44A;">Fast with less RAM.</td>
-<td style="color: #38B44A;">Works with any amount of RAM</td>
-<td style="color: #DF382C;">Decreased performance on low-RAM machines.</td>
-</tr>
-<tr>
-<td style="color: #DF382C;">Does not utilise more than 3GB or RAM.</td>
-<td style="color: #38B44A;">Utilises almost any amount of RAM,</td>
-<td style="color: #DF382C;">Inefficient with less RAM.</td>
-</tr>
-<tr>
-<td style="color: #DF382C;">No longer available.</td>
-<td style="color: #38B44A;">Recommended Download.</td>
-<td style="color: #DF382C;">Alternative download.</td>
-</tr>
-</table>
-
 All computers made within the last 10 years are likely to have 64-bit capable CPUs, and most maintained applications and drivers have 64-bit versions available.
 
 ### Other Operating Systems
