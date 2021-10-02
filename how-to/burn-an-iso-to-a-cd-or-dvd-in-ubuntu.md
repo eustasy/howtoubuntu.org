@@ -25,7 +25,7 @@ Plus discs usually cost slightly more, as they support direct writing from a com
 
 ### Using Brasero
 
-<a class="fancybox" title="Burning and ISO to a DVD in Brasero on Ubuntu" href="{ '/assets/images/how-to/burn-an-iso-to-a-cd-or-dvd-in-ubuntu/burn-an-iso-in-brasero.png' | relative_url }"><img class="round" src="{ '/assets/images/how-to/burn-an-iso-to-a-cd-or-dvd-in-ubuntu/burn-an-iso-in-brasero.png' | relative_url }" alt="Burning and ISO to a DVD in Brasero on Ubuntu"></a>
+<a class="fancybox" title="Burning and ISO to a DVD in Brasero on Ubuntu" href="{{ '/assets/images/how-to/burn-an-iso-to-a-cd-or-dvd-in-ubuntu/burn-an-iso-in-brasero.png' | relative_url }}"><img class="round" src="{{ '/assets/images/how-to/burn-an-iso-to-a-cd-or-dvd-in-ubuntu/burn-an-iso-in-brasero.png' | relative_url }}" alt="Burning and ISO to a DVD in Brasero on Ubuntu"></a>
 
 Either double-click, or right-click and <span class="box">Write to Disc</span>, and Brasero should open (unless you've installed another image burner). The file is already selected in the top box. Click the bottom box and select the disc you want to write to (if you haven't inserted it yet, now would be a good time). Click <span class="box">Burn</span>. Brasero will write the image to the disc. Wait for it to finish.
 
