@@ -52,3 +52,10 @@ hirsute:
   version: 21.04
   kernel: 5.11
   is-lts: false
+
+impish:
+  name: Impish Indri
+  released: 2021-10-14
+  version: 21.10
+  kernel: 5.13
+  is-lts: false
