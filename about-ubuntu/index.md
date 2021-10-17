@@ -82,3 +82,4 @@ Ubuntu release have always had the code-naming convention of an animal name as t
 - **Ubuntu 21.04 LTS (Focal Fossa)**
 - Ubuntu 20.10 (Groovy Gorilla)
 - **Ubuntu 21.04 (Hirsute Hippo)**
+- **Ubuntu 21.10 (Impish Indri)**
