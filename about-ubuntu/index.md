@@ -33,12 +33,11 @@ breadcrumb: about ubuntu
 ## Release & Support Cycle
 Release and support cycles are predominantly in two flavours, long and short. Short cycles practically require upgrades twice a year (similar to a modern Windows system, whereas Long cycles require major upgrades only after several years of stable operation. Because Ubuntu operates on a process of [Time Based Releases](https://wiki.ubuntu.com/TimeBasedReleases) with set deadlines, rather than waiting for all known issues to be resolved, both the release date and the presence of issues and bugs are reliable.
 
-- LTS: Released every **2 years**, supported for 5 years. First point release after 4 months.
-- Non-LTS: Released every **6 months**, supported for 9 months. Every forth release is replaced by an LTS release.
+- Non-LTS: Released every **6 months**, supported for 9 months. 
+- Every forth release is replaced by an LTS release.
+- LTS: Released every **2 years**, supported for 5 years. (First point release after 4 months)
 
 {% include icons/ubuntu-release-support-cycle.svg.html %}
-
-This has lead to a common practice of many users administering large fleets: running LTS releases only after waiting several months for the first of the point releases, usually released in August after the April release in any even-numbered year. These are then run in a leapfrog fashion to avoid upgrading entire fleets of machines on a more regular basis. Alternating LTS on 100 computers result in ~25 upgrades a year, versus 200 upgrades a year on a non-lts release.
 
 ## Naming Ubuntu Releases
 
