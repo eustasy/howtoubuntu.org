@@ -36,7 +36,7 @@ Release and support cycles are predominantly in two flavours, long and short. Sh
 - LTS: Released every **2 years**, supported for 5 years. First point release after 4 months.
 - Non-LTS: Released every **6 months**, supported for 9 months. Every forth release is replaced by an LTS release.
 
-{{ include icons/ubuntu-release-support-cycle.svg.html }}
+{% include icons/ubuntu-release-support-cycle.svg.html %}
 
 This has lead to a common practice of many users administering large fleets: running LTS releases only after waiting several months for the first of the point releases, usually released in August after the April release in any even-numbered year. These are then run in a leapfrog fashion to avoid upgrading entire fleets of machines on a more regular basis. Alternating LTS on 100 computers result in ~25 upgrades a year, versus 200 upgrades a year on a non-lts release.
 
