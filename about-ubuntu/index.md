@@ -10,9 +10,14 @@ breadcrumb: about ubuntu
 - Recommended for most users.
 - [About Ubuntu 20.04 LTS (Focal Fossa)]({{ '/about-ubuntu/20-04-focal-fossa' | relative_url }})
 
+### Ubuntu 21.10 (Impish Indri)
+- Supported until July 2023.
+- Recommended for users who want the latest software and hardware support.
+- [About Ubuntu 21.10 (Impish Indri)]({{ '/about-ubuntu/21-10-impish-indri' | relative_url }})
+
 ### Ubuntu 21.04 (Hirsute Hippo)
 - Supported until January 2022.
-- Recommended for users who want the latest software and hardware support.
+- No longer recommended for new installs.
 - [About Ubuntu 21.04 (Hirsute Hippo)]({{ '/about-ubuntu/21-04-hirsute-hippo' | relative_url }})
 
 ### Ubuntu 18.04 LTS (Bionic Beaver)
@@ -31,9 +36,9 @@ Release and support cycles are predominantly in two flavours, long and short. Sh
 - LTS: Released every **2 years**, supported for 5 years. First point release after 4 months.
 - Non-LTS: Released every **6 months**, supported for 9 months. Every forth release is replaced by an LTS release.
 
-This has lead to a common practice of many users administering large fleets: running LTS releases only after waiting several months for the first of the point releases, usually released in August after the April release in any even-numbered year. These are then run in a leapfrog fashion to avoid upgrading entire fleets of machines on a more regular basis. Alternating LTS on 100 computers result in ~25 upgrades a year, versus 200 upgrades a year on a non-lts release.
-
 {{ include icons/ubuntu-release-support-cycle.svg.html }}
+
+This has lead to a common practice of many users administering large fleets: running LTS releases only after waiting several months for the first of the point releases, usually released in August after the April release in any even-numbered year. These are then run in a leapfrog fashion to avoid upgrading entire fleets of machines on a more regular basis. Alternating LTS on 100 computers result in ~25 upgrades a year, versus 200 upgrades a year on a non-lts release.
 
 ## Naming Ubuntu Releases
 
