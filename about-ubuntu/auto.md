@@ -8,7 +8,7 @@ breadcrumb: about ubuntu (auto)
 #### Automatic
 
 {% for release in site.data.releases %}
-- Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}) {% include note.html date=release.released %}
+- Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}) {% include date.html date=release.released %}
 {% endfor %}
 
 #### Manual
