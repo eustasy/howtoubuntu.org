@@ -16,6 +16,7 @@ breadcrumb: about ubuntu (auto)
 {% capture nicename %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% endcapture %}
 {% capture url %}{{ release.version }}-{{ release.name }}{% endcapture %}
 {% assign url = url | slugify %}
+{% assign url = '/about-ubuntu/' | append: url %}
 
 
 ### {{ nicename }}
