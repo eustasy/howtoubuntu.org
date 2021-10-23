@@ -17,7 +17,7 @@ breadcrumb: about ubuntu (auto)
 ### Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})
 - Supported until {{release.eol | date: '%B %Y'}}.{% if release.is-lts and first_lts > 0 %}
 - Recommended for most users.{% assign first_lts = 0 %}{% elsif release.is-lts %}
-- No longer recommended for new installs.
+- No longer recommended for new installs. {{ release.point-releases.length }}
 - Users are recommended to use the newer LTS release.{% if release.point-releases.length > 4 %}
 - It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported throughout its remaining lifespan.{% endif %}{% elsif first_non_lts > 0 %}
 - Recommended for users who want the latest software and hardware support.{% assign first_non_lts = 0 %}{% else %}
