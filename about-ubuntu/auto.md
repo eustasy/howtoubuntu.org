@@ -10,8 +10,7 @@ breadcrumb: about ubuntu (auto)
 {% for release in site.data.releases %}
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
-- {% if posttime > nowunix %}**{% endif %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% if posttime > nowunix %}**{% endif %}
-{% endfor %}
+- {% if posttime > nowunix %}**{% endif %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% if posttime > nowunix %}**{% endif %}{% endfor %}
 
 #### Manual
 - Ubuntu 4.10 (Warty Warthog)
