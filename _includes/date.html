@@ -16,4 +16,4 @@
     {% endcase %}
 {% endif %}
 {% capture ordinalDay %}{{ day | append: ordinal }}{% endcapture %}                             
-{{ include.date | date: "%A" }} the {{ ordinalDay }} of {{ include.date | date: "%b, %Y" }}
+{{ include.date | date: "%A" }} the {{ ordinalDay }} of {{ include.date | date: "%B, %Y" }}
