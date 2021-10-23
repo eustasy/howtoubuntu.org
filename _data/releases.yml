@@ -1,7 +1,7 @@
 # Kernels and dates from https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions and https://ubuntu.com/about/release-cycle
 # Releases outside of standard support not listed
 
-bionic:
+- bionic:
   name: Bionic Beaver
   released: 2018-04-26
   version: 18.04
@@ -28,7 +28,7 @@ bionic:
       date: 2021-09-15
       kernel: 5.4
 
-focal:
+- focal:
   name: Focal Fossa
   released: 2020-04-23
   version: 20.04
@@ -48,7 +48,7 @@ focal:
   - version: 20.04.4
     date: 2022-02-10
 
-hirsute:
+- hirsute:
   name: Hirsute Hippo
   released: 2020-04-23
   version: 21.04
@@ -56,7 +56,7 @@ hirsute:
   is-lts: false
   eol: 2022-01
 
-impish:
+- impish:
   name: Impish Indri
   released: 2021-10-14
   version: 21.10
