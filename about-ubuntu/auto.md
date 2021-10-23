@@ -5,17 +5,17 @@ breadcrumb: about ubuntu (auto)
 
 ## Ubuntu Releases
 
+{% assign first_lts = 1 %}
+{% assign first_non_lts = 1 %}
 {% assign sorted = site.data.releases | sort: 'eol' | reverse %}
 {% for release in sorted %}
 
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
-{% assign first_lts = 1 %}
-{% assign first_non_lts = 1 %}
 {% if posttime > nowunix %}
 
 ### Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})
-- Supported until {{release.eol | date: '%B %Y'}}. {{ first_lts }} {{ first_non_lts }}
+- Supported until {{release.eol | date: '%B %Y'}}.
 
 {% if release.is-lts and first_lts > 0 %}
 - Recommended for most users.
