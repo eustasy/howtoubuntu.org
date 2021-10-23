@@ -29,8 +29,9 @@ breadcrumb: about ubuntu (auto)
 - No longer recommended for new installs.{% endif %}
 - [About {{ nicename }}]({{ url | relative_url }})
 
-{{ release.point-releases.length }}
-{{ release.point-releases.count }}
+- Size {{ release.point-releases.size }}
+- Length {{ release.point-releases.length }}
+- Count {{ release.point-releases.count }}
 {% for point in release.point-releases %}
 {{ forloop.index }}
 {% endfor %}
