@@ -14,7 +14,7 @@ Apport is an Error Reporting Service provided by Ubuntu to intercept and analyze
 
 You can stop the currently running Apport service with the following command:
 
-<input type="text" class="code" value="sudo service apport stop">
+    sudo service apport stop
 
 Note that unless you remove it or disable it at boot it will start again the next time you turn on your computer.
 
@@ -22,7 +22,7 @@ Note that unless you remove it or disable it at boot it will start again the nex
 
 You need to manually edit a file to Stop Apport Running at Boot (when you turn on your machine. Open the Terminal, and paste the following command with <span class="box">Ctrl</span>+<span class="box">Shift</span>+<span class="box">V</span>, or type it in manually.
 
-<input type="text" class="code" value="sudo nano /etc/default/apport">
+    sudo nano /etc/default/apport
 
 Change the line that says <span class="box">enabled=1</span> to <span class="box">enabled=0</span> to disable Apport. Use <span class="box">Ctrl</span>+<span class="box">X</span> to exit and <span class="box">Enter</span> to save. To re-enable, change it back.
 
@@ -32,6 +32,6 @@ It is fairly simple to uninstall Apport, as you can open the **Ubuntu Software C
 
 A similar process can be used for the package <span class="box">apport</span> in both **Synaptic** and in **apt** the **Terminal**.
 
-<input type="text" class="code" value="sudo apt-get purge apport">
+    sudo apt-get purge apport
 
 ## Congratulations, you have Disabled, Stopped, or Uninstalled Apport Error Reporting in Ubuntu!
