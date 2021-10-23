@@ -28,6 +28,30 @@
       date: 2021-09-15
       kernel: 5.4
 
+- cosmic:
+  name: Cosmic Cuttlefish
+  released: 2018-10-18
+  version: '19.10'
+  kernel: 4.18
+  is-lts: false
+  eol: 2019-07-18
+
+- disco:
+  name: Disco Dingo
+  released: 2019-04-18
+  version: '19.10'
+  kernel: 5.0
+  is-lts: false
+  eol: 2020-01-23
+
+- eoan:
+  name: Eoan Ermine
+  released: 2019-10-17
+  version: '19.10'
+  kernel: 5.3
+  is-lts: false
+  eol: 2020-07-17
+ 
 - focal:
   name: Focal Fossa
   released: 2020-04-23
