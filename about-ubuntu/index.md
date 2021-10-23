@@ -5,27 +5,31 @@ breadcrumb: about ubuntu
 
 ## Ubuntu Releases
 
-### Ubuntu 20.04 LTS (Focal Fossa)
-- Supported until April 2025.
-- Recommended for most users.
-- [About Ubuntu 20.04 LTS (Focal Fossa)]({{ '/about-ubuntu/20-04-focal-fossa' | relative_url }})
+{% assign first_lts = 1 %}
+{% assign first_non_lts = 1 %}
+{% assign sorted = site.data.releases | sort: 'eol' | reverse %}
+{% for release in sorted %}
 
-### Ubuntu 21.10 (Impish Indri)
-- Supported until July 2023.
-- Recommended for users who want the latest software and hardware support.
-- [About Ubuntu 21.10 (Impish Indri)]({{ '/about-ubuntu/21-10-impish-indri' | relative_url }})
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
+{% if posttime > nowunix %}
+{% capture nicename %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% endcapture %}
+{% capture url %}{{ release.version }}-{{ release.name }}{% endcapture %}
+{% assign url = url | slugify %}
+{% assign url = '/about-ubuntu/' | append: url %}
 
-### Ubuntu 21.04 (Hirsute Hippo)
-- Supported until January 2022.
+### {{ nicename }}
+- Supported until {{release.eol | date: '%B %Y'}}.{% if release.is-lts and first_lts > 0 %}
+- Recommended for most users.{% assign first_lts = 0 %}{% elsif release.is-lts %}
 - No longer recommended for new installs.
-- [About Ubuntu 21.04 (Hirsute Hippo)]({{ '/about-ubuntu/21-04-hirsute-hippo' | relative_url }})
+- Users are recommended to use the newer LTS release.{% if release.point-releases.size > 4 %}
+- It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported throughout its remaining lifespan.{% endif %}{% elsif first_non_lts > 0 %}
+- Recommended for users who want the latest software and hardware support.{% assign first_non_lts = 0 %}{% else %}
+- No longer recommended for new installs.{% endif %}
+- [About {{ nicename }}]({{ url | relative_url }})
 
-### Ubuntu 18.04 LTS (Bionic Beaver)
-- Supported until April 2023.
-- No longer recommended for new installs.
-- It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported through its lifespan.
-- Users are recommended to use the newer LTS release that is less dates, while still being a mature system.
-- [About Ubuntu 18.04 LTS (Bionic Beaver)]({{ '/about-ubuntu/18-04-bionic-beaver' | relative_url }})
+{% endif %}
+{% endfor %}
 
 ### Ubuntu Server
 - [About Ubuntu Server]({{ '/about-ubuntu/server' | relative_url }})
@@ -42,48 +46,13 @@ Release and support cycles are predominantly in two flavours, long and short. Sh
 ## Naming Ubuntu Releases
 
 ### Numbers
-The numbers in the name relate to the year and month of release. 20.04 was released on the 4th month of the year 2020. Ubuntu 19.10 was released on the 10th month (October) of 2019. Releases are scheduled every six months, numbered as 18.04, 18.10, 19.04, 19.10, 20.04, etc. Occaisionally, you may see a third number in a LTS release name: these are point releases, that include newer hardware support from non-LTS releases that have been backported.
+The numbers in the name relate to the year and month of release. 20.04 was released on the 4th month of the year 2020. Ubuntu 19.10 was released on the 10th month (October) of 2019. Releases are scheduled every six months, numbered as 18.04, 18.10, 19.04, 19.10, 20.04, etc. You may notice a third number in a LTS release name: these are point releases, that include newer hardware support from non-LTS releases that have been backported.
 
-### Adjectives
-The first letter of the adjectives always match that of the animals. Like the animals, these are usually lesser known, obscure, or infamous in dome way.
-
-### Animals
-Ubuntu release have always had the code-naming convention of an animal name as the second part, preceded by an adjective beginning with the same letter. Apart from the first two releases (back in 2004/5), they have been working through the alphabet (starting at B and missing C). While the animals honored in this way are not necessarily unheard of, many of them are either uncommon or infamous in some way.
+### Adjective Animal
+Ubuntu release have always had the code-naming convention of an animal name as the second part, preceded by an adjective beginning with the same letter. Apart from the first few releases (back in 2004/5), they have been working through the alphabet. While the animals honored in this way are not necessarily unheard of, many of them are either uncommon or infamous in some way.
     
 ### Past Releases
 **Bold** indicates a currently supported release.
-			
-- Ubuntu 4.10 (Warty Warthog)
-- Ubuntu 5.04 (Hoary Hedgehog)
-- Ubuntu 5.10 (Breezy Badger)
-- Ubuntu 6.06 LTS (Dapper Drake)
-- Ubuntu 6.10 (Edgy Eft)
-- Ubuntu 7.04 (Feisty Fawn)
-- Ubuntu 7.10 (Gutsy Gibbon)
-- Ubuntu 8.04 LTS (Hardy Heron)
-- Ubuntu 8.10 (Intrepid Ibex)
-- Ubuntu 9.04 (Jaunty Jackalope)
-- Ubuntu 9.10 (Karmic Koala)
-- Ubuntu 10.04 LTS (Lucid Lynx)
-- Ubuntu 10.10 (Maverick Meerkat)
-- Ubuntu 11.04 (Natty Narwhal)
-- Ubuntu 12.04 LTS (Precise Pangolin)
-- Ubuntu 12.10 (Quantal Quetzal)
-- Ubuntu 13.04 (Raring Ringtail)
-- Ubuntu 13.10 (Saucy Salamander)
-- Ubuntu 14.04 LTS (Trusty Tahr)
-- Ubuntu 14.10 (Utopic Unicorn)
-- Ubuntu 15.04 (Vivid Vervet)
-- Ubuntu 15.10 (Wily Werewolf)
-- Ubuntu 16.04 LTS (Xenial Xerus)
-- Ubuntu 16.10 (Yakkety Yak)
-- Ubuntu 17.04 (Zesty Zapus)
-- Ubuntu 17.10 (Artful Aardvark)
-- **Ubuntu 18.04 LTS (Bionic Beaver)**
-- Ubuntu 18.10 (Cosmic Cuttlefish)
-- Ubuntu 19.04 (Disco Dingo)
-- Ubuntu 19.10 (Eoan Ermine)
-- **Ubuntu 21.04 LTS (Focal Fossa)**
-- Ubuntu 20.10 (Groovy Gorilla)
-- **Ubuntu 21.04 (Hirsute Hippo)**
-- **Ubuntu 21.10 (Impish Indri)**
+
+{% for release in site.data.releases %}{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}{% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
+- {% if posttime > nowunix %}**{% endif %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% if posttime > nowunix %}**{% endif %}{% endfor %}
