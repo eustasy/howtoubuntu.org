@@ -17,13 +17,13 @@ breadcrumb: about ubuntu (auto)
 ### Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})
 - Supported until {{release.eol | date: '%B %Y'}}.
 
-{% if release.is-lts and first_lts %}
+{% if release.is-lts and first_lts > 0 %}
 - Recommended for most users.
 {% decrement first_lts %}
 {% elsif release.is-lts %}
 - No longer recommended for new installs.
 - Users are recommended to use the newer LTS release.
-{% elsif first_non_lts %}
+{% elsif first_non_lts > 0 %}
 - Recommended for users who want the latest software and hardware support.
 {% decrement first_non_lts %}
 {% else %}
