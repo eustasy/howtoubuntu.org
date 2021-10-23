@@ -21,10 +21,11 @@ breadcrumb: about ubuntu (auto)
 - Users are recommended to use the newer LTS release.{% if release.point-releases.length > 4 %}
 - It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported throughout its remaining lifespan.{% endif %}{% elsif first_non_lts > 0 %}
 - Recommended for users who want the latest software and hardware support.{% assign first_non_lts = 0 %}{% else %}
-- No longer recommended for new installs.
-{% endif %}
+- No longer recommended for new installs.{% endif %}
+- [About Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})]({{ '/about-ubuntu/{{ release.version }}-{{ release.name }}' | replace '.', '-' | replace ' ', '-' | downcase | relative_url }})
 
 {{ release.point-releases.length }}
+{{ release.point-releases.count }}
 
 {% endif %}
 {% endfor %}
