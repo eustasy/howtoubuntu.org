@@ -1,6 +1,6 @@
 ---
-title: About Ubuntu
-breadcrumb: about ubuntu
+title: About Ubuntu (auto)
+breadcrumb: about ubuntu (auto)
 ---
 
 ## Ubuntu Releases
