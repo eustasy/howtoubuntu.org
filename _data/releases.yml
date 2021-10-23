@@ -4,7 +4,7 @@
 - bionic:
   name: Bionic Beaver
   released: 2018-04-26
-  version: 18.04
+  version: '18.04'
   kernel: 4.15
   is-lts: true
   eol: 2021-04
@@ -31,7 +31,7 @@
 - focal:
   name: Focal Fossa
   released: 2020-04-23
-  version: 20.04
+  version: '20.04'
   kernel: 5.4
   is-lts: true
   eol: 2025-04
@@ -51,7 +51,7 @@
 - groovy:
   name: Groovy Gorilla
   released: 2020-10-22
-  version: 20.10
+  version: '20.10'
   kernel: 5.8
   is-lts: false
   eol: 2021-07-22
@@ -59,7 +59,7 @@
 - hirsute:
   name: Hirsute Hippo
   released: 2020-04-23
-  version: 21.04
+  version: '21.04'
   kernel: 5.11
   is-lts: false
   eol: 2022-01
@@ -67,7 +67,7 @@
 - impish:
   name: Impish Indri
   released: 2021-10-14
-  version: 21.10
+  version: '21.10'
   kernel: 5.13
   is-lts: false
   eol: 2024-07
