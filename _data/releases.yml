@@ -31,7 +31,7 @@
 - cosmic:
   name: Cosmic Cuttlefish
   released: 2018-10-18
-  version: '19.10'
+  version: '18.10'
   kernel: 4.18
   is-lts: false
   eol: 2019-07-18
@@ -39,7 +39,7 @@
 - disco:
   name: Disco Dingo
   released: 2019-04-18
-  version: '19.10'
+  version: '19.04'
   kernel: 5.0
   is-lts: false
   eol: 2020-01-23
