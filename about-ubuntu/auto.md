@@ -14,7 +14,10 @@ breadcrumb: about ubuntu (auto)
 {% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
 {% if posttime > nowunix %}
 {% capture nicename %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% endcapture %}
-{% capture url %}/about-ubuntu/{{ release.version }}-{{ release.name }}{% endcapture %}
+{% capture url %}{{ release.version }}-{{ release.name }}{% endcapture %}
+{% assign url = url | slugify %}
+{% assign url = '/about-ubuntu/' | append url %}
+
 
 ### {{ nicename }}
 - Supported until {{release.eol | date: '%B %Y'}}.{% if release.is-lts and first_lts > 0 %}
@@ -24,7 +27,7 @@ breadcrumb: about ubuntu (auto)
 - It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported throughout its remaining lifespan.{% endif %}{% elsif first_non_lts > 0 %}
 - Recommended for users who want the latest software and hardware support.{% assign first_non_lts = 0 %}{% else %}
 - No longer recommended for new installs.{% endif %}
-- [About {{ nicename }}]({{ url | slugify | relative_url }})
+- [About {{ nicename }}]({{ url | relative_url }})
 
 {{ release.point-releases.length }}
 {{ release.point-releases.count }}
