@@ -5,6 +5,44 @@ breadcrumb: about ubuntu (auto)
 
 ## Ubuntu Releases
 
+{% assign sorted = site.data.releases | sort: 'eol' | reverse %}
+{% for item in sorted %}
+<li>{{ item.name }}</li>
+{% endfor %}
+
+{% for release in site.data.releases %}
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
+{% if posttime > nowunix %}
+### Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})
+{% endif %}
+{% endfor %}
+
+### Ubuntu 20.04 LTS (Focal Fossa)
+- Supported until April 2025.
+- Recommended for most users.
+- [About Ubuntu 20.04 LTS (Focal Fossa)]({{ '/about-ubuntu/20-04-focal-fossa' | relative_url }})
+
+### Ubuntu 21.10 (Impish Indri)
+- Supported until July 2023.
+- Recommended for users who want the latest software and hardware support.
+- [About Ubuntu 21.10 (Impish Indri)]({{ '/about-ubuntu/21-10-impish-indri' | relative_url }})
+
+### Ubuntu 21.04 (Hirsute Hippo)
+- Supported until January 2022.
+- No longer recommended for new installs.
+- [About Ubuntu 21.04 (Hirsute Hippo)]({{ '/about-ubuntu/21-04-hirsute-hippo' | relative_url }})
+
+### Ubuntu 18.04 LTS (Bionic Beaver)
+- Supported until April 2023.
+- No longer recommended for new installs.
+- It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported through its lifespan.
+- Users are recommended to use the newer LTS release that is less dates, while still being a mature system.
+- [About Ubuntu 18.04 LTS (Bionic Beaver)]({{ '/about-ubuntu/18-04-bionic-beaver' | relative_url }})
+
+### Ubuntu Server
+- [About Ubuntu Server]({{ '/about-ubuntu/server' | relative_url }})
+
 #### Automatic
 
 {% for release in site.data.releases %}{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}{% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
