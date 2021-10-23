@@ -7,6 +7,7 @@ bionic:
   version: 18.04
   kernel: 4.15
   is-lts: true
+  eol: 2021-04
   point-releases:
     - version: 18.04.1
       date: 2018-07-26
@@ -33,6 +34,7 @@ focal:
   version: 20.04
   kernel: 5.4
   is-lts: true
+  eol: 2025-04
   point-releases:
   - version: 20.04.1
     date: 2020-08-06
@@ -52,6 +54,7 @@ hirsute:
   version: 21.04
   kernel: 5.11
   is-lts: false
+  eol: 2022-01
 
 impish:
   name: Impish Indri
@@ -59,3 +62,4 @@ impish:
   version: 21.10
   kernel: 5.13
   is-lts: false
+  eol: 2024-07
