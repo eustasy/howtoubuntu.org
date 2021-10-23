@@ -15,7 +15,7 @@ breadcrumb: about ubuntu (auto)
 {% if posttime > nowunix %}
 
 ### Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})
-- Supported until {{release.eol | date: '%B %Y'}}.
+- Supported until {{release.eol | date: '%B %Y'}}. {{ first_lts }} {{ first_non_lts }}
 
 {% if release.is-lts and first_lts > 0 %}
 - Recommended for most users.
