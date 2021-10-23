@@ -7,14 +7,11 @@ breadcrumb: about ubuntu (auto)
 
 {% assign sorted = site.data.releases | sort: 'eol' | reverse %}
 {% for release in sorted %}
-<li>{{ release.name }} {{ release.eol }}</li>
-{% endfor %}
-
-{% for release in site.data.releases %}
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
 {% if posttime > nowunix %}
 ### Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})
+- Supported until {{release.eol | date: '%B %Y'}}.
 {% endif %}
 {% endfor %}
 
