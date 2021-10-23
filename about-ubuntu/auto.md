@@ -18,23 +18,15 @@ breadcrumb: about ubuntu (auto)
 {% assign url = url | slugify %}
 {% assign url = '/about-ubuntu/' | append: url %}
 
-
 ### {{ nicename }}
 - Supported until {{release.eol | date: '%B %Y'}}.{% if release.is-lts and first_lts > 0 %}
 - Recommended for most users.{% assign first_lts = 0 %}{% elsif release.is-lts %}
 - No longer recommended for new installs.
-- Users are recommended to use the newer LTS release.{% if release.point-releases.length > 4 %}
+- Users are recommended to use the newer LTS release.{% if release.point-releases.size > 4 %}
 - It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported throughout its remaining lifespan.{% endif %}{% elsif first_non_lts > 0 %}
 - Recommended for users who want the latest software and hardware support.{% assign first_non_lts = 0 %}{% else %}
 - No longer recommended for new installs.{% endif %}
 - [About {{ nicename }}]({{ url | relative_url }})
-
-- Size {{ release.point-releases.size }}
-- Length {{ release.point-releases.length }}
-- Count {{ release.point-releases.count }}
-{% for point in release.point-releases %}
-{{ forloop.index }}
-{% endfor %}
 
 {% endif %}
 {% endfor %}
