@@ -1,6 +1,30 @@
 # Kernels and dates from https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions and https://ubuntu.com/about/release-cycle
 # Releases outside of standard support not listed
 
+- yakkety:
+  name: Yakkety Yak
+  released: 2016-10-13
+  version: '16.10'
+  kernel: '4.10'
+  is-lts: false
+  eol: 2017-07-20
+
+- zesty:
+  name: Zesty Zapus
+  released: 2017-04-13
+  version: '17.04'
+  kernel: 4.13
+  is-lts: false
+  eol: 2018-01-13
+
+- artful:
+  name: Artful Aardvark
+  released: 2017-10-19
+  version: '17.10'
+  kernel: 4.15
+  is-lts: false
+  eol: 2018-07-19
+
 - bionic:
   name: Bionic Beaver
   released: 2018-04-26
