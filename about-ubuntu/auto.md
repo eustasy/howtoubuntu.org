@@ -11,9 +11,11 @@ breadcrumb: about ubuntu (auto)
 {% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
 {% if posttime > nowunix %}
 ### Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})
-- Supported until {{release.eol | date: '%B %Y'}}.
-{% if forloop.first %}- Recommended for most users.{% endif %}
-{% if release.is-lts %} LTS{% endif %}
+- Supported until {{release.eol | date: '%B %Y'}}.{% if forloop.index < 2 %}{% if release.is-lts %}
+- Recommended for most users.{% else %}
+- Recommended for most users.{% endif %}{% else %}
+- No longer recommended for new installs.{% if release.is-lts %}
+- Users are recommended to use the newer LTS release that is less dated, while still being a mature system.{% endif %}
 {% endif %}
 {% endfor %}
 
@@ -36,7 +38,7 @@ breadcrumb: about ubuntu (auto)
 - Supported until April 2023.
 - No longer recommended for new installs.
 - It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported through its lifespan.
-- Users are recommended to use the newer LTS release that is less dates, while still being a mature system.
+- Users are recommended to use the newer LTS release that is less dated, while still being a mature system.
 - [About Ubuntu 18.04 LTS (Bionic Beaver)]({{ '/about-ubuntu/18-04-bionic-beaver' | relative_url }})
 
 ### Ubuntu Server
