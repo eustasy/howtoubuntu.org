@@ -5,11 +5,6 @@ breadcrumb: about ubuntu (auto)
 
 ## Ubuntu Releases
 
-{% assign sorted = site.data.releases | sort: 'eol' | reverse %}
-{% for item in sorted %}
-<li>{{ item.name }}</li>
-{% endfor %}
-
 {% for release in site.data.releases %}
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
