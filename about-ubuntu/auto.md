@@ -5,13 +5,15 @@ breadcrumb: about ubuntu (auto)
 
 ## Ubuntu Releases
 
-{% assign sorted = site.data.releases | sort: 'eol' | reverse %}
+{% assign sorted = site.data.releases | sort: 'released' | reverse %}
 {% for release in sorted %}
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
 {% if posttime > nowunix %}
 ### Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})
 - Supported until {{release.eol | date: '%B %Y'}}.
+{% if forloop.first %}- Recommended for most users.{% endif %}
+{% if release.is-lts %} LTS{% endif %}
 {% endif %}
 {% endfor %}
 
