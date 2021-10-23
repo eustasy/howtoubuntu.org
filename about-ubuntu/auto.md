@@ -19,13 +19,13 @@ breadcrumb: about ubuntu (auto)
 
 {% if release.is-lts and first_lts > 0 %}
 - Recommended for most users.
-{% decrement first_lts %}
+{% assign first_lts = first_lts | minus: 0 %}
 {% elsif release.is-lts %}
 - No longer recommended for new installs.
 - Users are recommended to use the newer LTS release.
 {% elsif first_non_lts > 0 %}
 - Recommended for users who want the latest software and hardware support.
-{% decrement first_non_lts %}
+{% assign first_non_lts = first_non_lts | minus: 0 %}
 {% else %}
 - No longer recommended for new installs.
 {% endif %}
