@@ -31,6 +31,9 @@ breadcrumb: about ubuntu (auto)
 
 {{ release.point-releases.length }}
 {{ release.point-releases.count }}
+{% for point in release.point-releases %}
+{{ forloop.index }}
+{% endfor %}
 
 {% endif %}
 {% endfor %}
