@@ -48,6 +48,14 @@
   - version: 20.04.4
     date: 2022-02-10
 
+- groovy:
+  name: Groovy Gorilla
+  released: 2020-10-22
+  version: 20.10
+  kernel: 5.8
+  is-lts: false
+  eol: 2021-07-22
+
 - hirsute:
   name: Hirsute Hippo
   released: 2020-04-23
