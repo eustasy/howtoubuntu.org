@@ -22,7 +22,7 @@ breadcrumb: about ubuntu (auto)
 - It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported throughout its remaining lifespan.{% endif %}{% elsif first_non_lts > 0 %}
 - Recommended for users who want the latest software and hardware support.{% assign first_non_lts = 0 %}{% else %}
 - No longer recommended for new installs.{% endif %}
-- [About Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})]({{ '/about-ubuntu/{{ release.version }}-{{ release.name }}' | replace '.', '-' | replace ' ', '-' | downcase | relative_url }})
+- [About Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})]({{ '/about-ubuntu/{{ release.version }}-{{ release.name }}' | slugify | relative_url }})
 
 {{ release.point-releases.length }}
 {{ release.point-releases.count }}
