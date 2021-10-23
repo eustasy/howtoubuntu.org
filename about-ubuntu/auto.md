@@ -22,7 +22,7 @@ breadcrumb: about ubuntu (auto)
 {% assign first_lts = 0 %}
 {% elsif release.is-lts %}
 - No longer recommended for new installs.
-- Users are recommended to use the newer LTS release that is less dated, while still being a mature system.
+- Users are recommended to use the newer LTS release.
 {% elsif first_non_lts %}
 - Recommended for users who want the latest software and hardware support.
 {% assign first_non_lts = 0 %}
