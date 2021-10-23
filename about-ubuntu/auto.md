@@ -7,16 +7,27 @@ breadcrumb: about ubuntu (auto)
 
 {% assign sorted = site.data.releases | sort: 'released' | reverse %}
 {% for release in sorted %}
+
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
 {% if posttime > nowunix %}
+
 ### Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})
-- Supported until {{release.eol | date: '%B %Y'}}.{% if forloop.index < 2 %}{% if release.is-lts %}
+- Supported until {{release.eol | date: '%B %Y'}}.
+{% if forloop.index < 2 %}
+
+{% if release.is-lts %}
 - Recommended for most users.{% else %}
-- Recommended for most users.{% endif %}{% else %}
+- Recommended for most users.{% endif %}
+
+{% else %}
 - No longer recommended for new installs.{% if release.is-lts %}
 - Users are recommended to use the newer LTS release that is less dated, while still being a mature system.{% endif %}
+
 {% endif %}
+
+{% endif %}
+
 {% endfor %}
 
 ### Ubuntu 20.04 LTS (Focal Fossa)
