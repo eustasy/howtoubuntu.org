@@ -6,8 +6,8 @@ breadcrumb: about ubuntu (auto)
 ## Ubuntu Releases
 
 {% assign sorted = site.data.releases | sort: 'eol' | reverse %}
-{% for item in sorted %}
-<li>{{ item.name }}</li>
+{% for release in sorted %}
+<li>{{ release.name }} {{ release.eol }}</li>
 {% endfor %}
 
 {% for release in site.data.releases %}
