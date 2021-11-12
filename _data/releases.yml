@@ -1,6 +1,54 @@
 # Kernels and dates from https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions and https://ubuntu.com/about/release-cycle
 # Releases outside of standard support not listed
 
+- precise:
+  name: Precise Pangolin
+  released: 2012-04-26
+  version: '12.04'
+  kernel: 3.2
+  is-lts: true
+  eol: 2017-04-28
+
+- trusty:
+  name: Trusty Tahr
+  released: 2014-04-17
+  version: '14.04'
+  kernel: 3.13
+  is-lts: true
+  eol: 2019-04-25
+
+- utpoic:
+  name: Utopic Unicorn
+  released: 2014-10-23
+  version: '14.10'
+  kernel: 3.16
+  is-lts: false
+  eol: 2015-07-23
+
+- vivid:
+  name: Vivid Vervet
+  released: 2015-04-23
+  version: '15.04'
+  kernel: 3.19
+  is-lts: false
+  eol: 2016-02-04
+
+- wily:
+  name: Wily Werewolf
+  released: 2015-10-22
+  version: '15.10'
+  kernel: 4.2
+  is-lts: false
+  eol: 2016-07-28
+
+- xenial:
+  name: Xenial Xerus
+  released: 2016-04-21
+  version: '16.04'
+  kernel: 4.4
+  is-lts: true
+  eol: 2021-04-30
+
 - yakkety:
   name: Yakkety Yak
   released: 2016-10-13
