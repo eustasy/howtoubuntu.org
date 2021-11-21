@@ -2,6 +2,7 @@
 title: How to Edit Dash Application Results in Ubuntu
 breadcrumb: edit dash application results
 excerpt: When you search for something in the Unity Dash, you may wish to remove some of the applications listed, or add some that are either hidden by default, or simply don't exist.
+---
 
 When you search for something in the Unity Dash, you may wish to remove some of the applications listed, or add some that are either hidden by default, or simply don't exist.
 
