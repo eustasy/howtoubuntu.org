@@ -6,7 +6,7 @@ excerpt: .Run or .Bin files are probably the only file types you will ever need 
 
 .Run or .Bin files are probably the only file types you will ever need to mark as executable in normal use of Ubuntu. There are two ways to execute them (which usually installs something), either in the terminal, or graphically (which usually relies on the terminal somewhat as well). Whichever you choose, read the red warnings below.
 
-## {% include icons/warning.svg.html %} Warnings {.warning}
+## {% include icons/warning.svg.html %} Warnings {:.warning}
 
 .Run and .Bin files are fairly easy to execute or install, but can be notoriously difficult to remove. This depends on the developer. They also can be downloaded from anywhere, and made by anyone, so make sure you or other people have experience and therefore trust of the source. You should check any uninstall procedures before proceeding with these instructions.
 
