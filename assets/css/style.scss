@@ -102,6 +102,10 @@ nav a:hover svg {
 	width: 1.1rem;
 }
 
+.warning {
+	fill: var(--eustasy-error-text);
+}
+
 /* $Charts */
 .chart__bar--orange {
 	fill: var(--ubuntu-orange);
