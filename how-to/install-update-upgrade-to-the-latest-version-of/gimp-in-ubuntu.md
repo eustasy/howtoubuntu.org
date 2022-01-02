@@ -1,6 +1,6 @@
 ---
-title: How to Install or Upgrade to the latest version of GIMP in Ubuntu
-breadcrumb: install or upgrade to the latest version of gimp
+title: How to Install GIMP in Ubuntu
+breadcrumb: gimp
 excerpt: GIMP is one of the most popular image editing programs that doesn't cost big money. This free programme is frequently tooted as an alternative for Adobe Photoshop. Unfortunately, the Ubuntu sources don't tend to stock the most recent version.
 ---
 
