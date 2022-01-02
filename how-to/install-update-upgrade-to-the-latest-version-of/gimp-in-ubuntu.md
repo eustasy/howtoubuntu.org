@@ -14,7 +14,7 @@ The second command installs Gimp, or updates it if it is already installed. It w
 
 ```bash
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp
-sudo apt-get install gimp
+sudo apt install gimp
 ```
 
 ## Congratulations, you have just Installed or Upgraded Gimp in Ubuntu!
