@@ -6,7 +6,7 @@ excerpt: If you've used Skype then you may have come across some of the patchy i
 
 If you've used Skype then you may have come across some of the patchy integration that is now Microsoft's problem. While they take their time fixing that, there is, in typical Linux fashion, a home-grown alternative. Skype Wrapper gives you tighter integration into Ubuntu and Unity via a convenient python app.
 
-*You also might want to [Install or Upgrade to the latest version of Skype]({{ '/how-to/install-update-upgrade-to-the-latest-version-of/skype-in-ubuntu' | relative_url }})*
+_You also might want to [Install or Upgrade to the latest version of Skype]({{ '/how-to/install-update-upgrade-to-the-latest-version-of/skype-in-ubuntu' | relative_url }})_
 
 ## 1. Add the Source in the Terminal
 
