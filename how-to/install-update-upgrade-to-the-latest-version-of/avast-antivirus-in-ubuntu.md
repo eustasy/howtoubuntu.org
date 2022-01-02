@@ -1,6 +1,6 @@
 ---
 title: How to Install and Update avast! Antivirus in Ubuntu
-breadcrumb: install and update avast! antivirus
+breadcrumb: avast! antivirus
 excerpt: Ubuntu doesn't tend to get viruses, but if you work with Windows, you can scan your machine using avast! Antivirus, once you've fixed the update issue.
 ---
 
