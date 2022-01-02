@@ -1,23 +1,25 @@
 <nav>
-	<ol class="main-content">
+	<div class="main-content">
+		<ol class="breadcrumbs">
 {% if page.layout == 'home' %}
-		<li>home</li>
+			<li>home
 {% else %}
-		<li><a href="{{ site.baseurl }}">home</a></li>
+			<li><a href="{{ site.baseurl }}">home</a>
 {% endif %}
 
 {% assign crumbs = page.url | split: '/' %}
 {% for crumb in crumbs offset: 1 %}
 	{% if forloop.last %}
-		<li>{{ page.breadcrumb | page.title }}</li>
+			<li>{{ page.breadcrumb | page.title }}
   	{% else %}
-		<li><a href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a></li>
+			<li><a href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a>
 	{% endif %}
 {% endfor %}
+		</ol>
 
 		<ol style="float:right;">
-			<li><a href="{{ site.baseurl }}/search" title="Search">{% include icons/search.svg.html %}</a></li>
-			<li><a href="{{ site.baseurl }}/how-to/install-update-upgrade-to-the-latest-version-of/" title="Applications">{% include icons/apps.svg.html %}</a></li>
+			<li><a href="{{ site.baseurl }}/search" title="Search">{% include icons/search.svg.html %}</a>
+			<li><a href="{{ site.baseurl }}/how-to/install-update-upgrade-to-the-latest-version-of/" title="Applications">{% include icons/apps.svg.html %}</a>
 		</ol>
-	</ol>
+	</div>
 </nav>
