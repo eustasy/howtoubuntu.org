@@ -32,25 +32,22 @@ nav {
 	border-bottom: 1px solid var(--ubuntu-warm-grey-20);
 	border-top: 1px solid var(--ubuntu-warm-grey-20);
 }
-nav ol.main-content {
+nav .main-content ol {
 	list-style-type: none;
 	padding-top: 0;
 	padding-bottom: 0;
 }
-nav ol.main-content li {
+nav .main-content ol li {
 	display: inline-block;
 	padding: 0.5rem;
 }
-nav ol.main-content > li:first-child {
+nav ol.breadcrumbs > li:first-child {
 	padding-left: 0;
 }
-nav ol.main-content > li:before {
+nav ol.breadcrumbs > li:before {
 	content: "\\\2003";
 	display: inline-block;
 	color: var(--ubuntu-warm-grey-50);
-}
-nav ol.main-content > li:last-child:before {
-    content: "";
 }
 nav svg {
 	fill: var(--ubuntu-warm-grey);
