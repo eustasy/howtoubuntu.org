@@ -1,5 +1,4 @@
 # Kernels and dates from https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions and https://ubuntu.com/about/release-cycle
-# Releases outside of standard support not listed
 
 - precise:
   name: Precise Pangolin
@@ -154,7 +153,7 @@
 
 - hirsute:
   name: Hirsute Hippo
-  released: 2020-04-23
+  released: 2021-04-23
   version: '21.04'
   kernel: 5.11
   is-lts: false
