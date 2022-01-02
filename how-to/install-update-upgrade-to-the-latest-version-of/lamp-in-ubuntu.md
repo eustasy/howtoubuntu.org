@@ -13,6 +13,7 @@ There is also an [excellent article on Digital Ocean](https://www.digitalocean.c
 To install Apache you must install the Metapackage <span class="box">apache2</span>. This can be done by searching for and installing in the Software Centre, or by running the following command.
 
 ```bash
+sudo add-apt-repository ppa:ondrej/apache2
 sudo apt install apache2
 ```
 
@@ -29,6 +30,7 @@ sudo apt install mysql-server
 PHP requires a few packages to work as you expect, so we recommend the following command.
 
 ```bash
+sudo add-apt-repository ppa:ondrej/php
 sudo apt install php php-mysql libapache2-mod-php
 ```
 
