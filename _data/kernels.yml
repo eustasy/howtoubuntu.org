@@ -1,0 +1,38 @@
+# Kernels and dates from https://en.wikipedia.org/wiki/Linux_kernel_version_history and https://www.kernel.org/category/releases.html
+# Releases outside of standard support not listed
+# EOL dates include a -14 for mid-month, not accurate but required for date sorting.
+
+- '5.15':
+  released: 2021-10-31
+  is-lts: true
+  eol: 2023-10-14
+
+- '5.10':
+  released: 2020-12-13
+  is-lts: true
+  eol: 2026-12-14
+
+- '5.4':
+  released: 2019-11-24
+  is-lts: true
+  eol: 2025-12-14
+
+- '4.19':
+  released: 2018-10-22
+  is-lts: true
+  eol: 2024-12-14
+
+- '4.14':
+  released: 2017-11-12
+  is-lts: true
+  eol: 2024-01-14
+
+- '4.9':
+  released: 2016-12-11
+  is-lts: true
+  eol: 2023-01-14
+
+- '4.4':
+  released: 2016-01-10
+  is-lts: true
+  eol: 2022-02-14
