@@ -1,6 +1,6 @@
 ---
 title: How to Install LAMP in Ubuntu
-breadcrumb: install lamp
+breadcrumb: lamp
 excerpt: The following tutorial presumes you understand what a LAMP Server is, how to work a website from the back end. It also expect experience running other Basic Terminal Commands.
 ---
 
