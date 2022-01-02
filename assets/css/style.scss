@@ -49,7 +49,7 @@ nav ol.main-content > li:before {
 	display: inline-block;
 	color: var(--ubuntu-warm-grey-50);
 }
-nav ol.main-content li:last-child:before {
+nav ol.main-content > li:last-child:before {
     content: "";
 }
 nav svg {
