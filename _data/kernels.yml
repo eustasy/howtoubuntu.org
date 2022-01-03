@@ -5,34 +5,34 @@
 - '5.15':
   released: 2021-10-31
   is-lts: true
-  eol: 2023-10-14
+  eol: 2023-10-31
 
 - '5.10':
   released: 2020-12-13
   is-lts: true
-  eol: 2026-12-14
+  eol: 2026-12-31
 
 - '5.4':
   released: 2019-11-24
   is-lts: true
-  eol: 2025-12-14
+  eol: 2025-12-31
 
 - '4.19':
   released: 2018-10-22
   is-lts: true
-  eol: 2024-12-14
+  eol: 2024-12-31
 
 - '4.14':
   released: 2017-11-12
   is-lts: true
-  eol: 2024-01-14
+  eol: 2024-01-31
 
 - '4.9':
   released: 2016-12-11
   is-lts: true
-  eol: 2023-01-14
+  eol: 2023-01-31
 
 - '4.4':
   released: 2016-01-10
   is-lts: true
-  eol: 2022-02-14
+  eol: 2022-02-31
