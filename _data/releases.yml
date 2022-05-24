@@ -142,6 +142,10 @@
     kernel: 5.11
   - version: 20.04.4
     date: 2022-02-10
+    kernel: 5.13
+  - version: 20.04.5
+    date: 2022-09-01
+    kernel: 5.15
 
 - groovy:
   name: Groovy Gorilla
@@ -166,3 +170,11 @@
   kernel: 5.13
   is-lts: false
   eol: 2022-07-14
+ 
+- jellyfish:
+  name: Jammy Jellyfish
+  released: 2022-04-21
+  version: '22.04'
+  kernel: 5.15
+  is-lts: true
+  eol: 2027-04-21
