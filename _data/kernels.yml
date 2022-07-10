@@ -2,6 +2,11 @@
 # Releases outside of standard support not listed
 # EOL dates include a -31 for end-of-month, not accurate but required for date sorting.
 
+- '5.18':
+  released: 2022-05-22
+  is-lts: false
+  eol: 2022-09-31
+
 - '5.15':
   released: 2021-10-31
   is-lts: true
