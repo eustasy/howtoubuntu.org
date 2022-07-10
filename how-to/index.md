@@ -4,7 +4,7 @@ breadcrumb: how to
 ---
 
 {% for page in site.pages %}
-{% if page.url contains 'how-to' and page.url != '/how-to/' %}
+{% if page.url contains 'how-to' unless page.url contains 'install-linux-kernel' and page.url != '/how-to/' %}
 
 <hr>
 
