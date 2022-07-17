@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 18.04: What's New?
+title: Ubuntu 18.04&#58; What's New?
 breadcrumb: ubuntu 18.04 whats new
 excerpt: OMG!Ubuntu! has put out their bi-annual video on what's new in Ubuntu.
 ---
