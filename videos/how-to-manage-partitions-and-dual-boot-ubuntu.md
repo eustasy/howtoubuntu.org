@@ -1,7 +1,6 @@
 ---
-title: Video: How to Manage Partitions and Dual Boot Ubuntu
+title: How to Manage Partitions and Dual Boot Ubuntu
 breadcrumb: how to manage partitions and dual boot ubuntu
-keywords: video how to manage partitions and dual boot ubuntu
 excerpt: NixiePixel has a video on Resizing and Dual Booting Ubuntu.
 ---
 
