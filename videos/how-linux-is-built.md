@@ -7,4 +7,4 @@ excerpt: The Linux Foundation have an amazing video about just how Linux, the ba
 
 [The Linux Foundation](https://www.youtube.com/user/TheLinuxFoundation) have an amazing video about just how Linux, the base of ubuntu and many other free systems, is built.
 
-{% include youtube-embed.html video="yVpbFMhOAwE" title="How Linux is Built" %}>
+{% include youtube-embed.html video="yVpbFMhOAwE" title="How Linux is Built" %}
