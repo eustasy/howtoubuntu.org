@@ -3,6 +3,8 @@ title: About Ubuntu 21.04 Hirsute Hippo
 breadcrumb: 21.04 hirsute hippo
 ---
 
+{% include unsupported.html %}
+
 ## Download Ubuntu 21.04 (Hirsute Hippo)
 
 [{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/21.04/){:.btn.download.archive}
