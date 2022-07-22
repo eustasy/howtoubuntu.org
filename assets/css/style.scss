@@ -107,10 +107,10 @@ svg.warning {
 	fill: var(--eustasy-error-text);
 }
 div.warning {
-    border: 2px solid var(--eustasy-error-text);
-    background: var(--eustasy-error);
-    border-radius: 0.3rem;
-    padding: 1rem 1rem 0.3rem;
+	border: 2px solid var(--eustasy-error-text);
+	background: var(--eustasy-error);
+	border-radius: 0.3rem;
+	padding: 1rem 1rem 0.3rem;
 }
 .warning a {
 	color: var(--ubuntu-canonical-aubergine);
@@ -118,6 +118,10 @@ div.warning {
 .warning h2,
 .warning h3 {
 	color: var(--ubuntu-text-grey);
+}
+.warning h2 svg {
+	fill: var(--ubuntu-text-grey);
+	padding-top: 5px;
 }
 
 /* $Charts */
