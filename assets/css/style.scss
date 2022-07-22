@@ -103,17 +103,17 @@ nav a:hover svg {
 	width: 1.1rem;
 }
 
-.warning {
+svg.warning {
 	fill: var(--eustasy-error-text);
 }
 div.warning {
-	border: 2px solid var(--eustasy-error-text);
-	background: var(--eustasy-error);
-	border-radius: 0.3rem;
+    border: 2px solid var(--eustasy-error-text);
+    background: var(--eustasy-error);
+    border-radius: 0.3rem;
+    padding: 1rem 1rem 0.3rem;
 }
-.warning h2,
-.warning h3 {
-	color: var(--eustasy-error-text);
+.warning a {
+	color: var(--ubuntu-canonical-aubergine);
 }
 
 /* $Charts */
