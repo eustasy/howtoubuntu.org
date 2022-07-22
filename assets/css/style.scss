@@ -106,6 +106,15 @@ nav a:hover svg {
 .warning {
 	fill: var(--eustasy-error-text);
 }
+div.warning {
+	border: 2px solid var(--eustasy-error-text);
+	background: var(--eustasy-error);
+	border-radius: 0.3rem;
+}
+.warning h2,
+.warning h3 {
+	color: var(--eustasy-error-text);
+}
 
 /* $Charts */
 .chart__bar--orange {
