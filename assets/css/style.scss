@@ -115,6 +115,10 @@ div.warning {
 .warning a {
 	color: var(--ubuntu-canonical-aubergine);
 }
+.warning h2,
+.warning h3 {
+	color: var(--ubuntu-text-grey);
+}
 
 /* $Charts */
 .chart__bar--orange {
