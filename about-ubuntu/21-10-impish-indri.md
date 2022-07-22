@@ -3,6 +3,8 @@ title: About Ubuntu 21.10 Impish Indri
 breadcrumb: 21.10 impish indri
 ---
 
+{% include unsupported.html %}
+
 ## Download Ubuntu 21.10 (Impish Indri)
 
 [{% include icons/download.svg.html %} Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download} [{% include icons/heart.svg.html %} Alternative Download Methods](https://ubuntu.com/download/alternative-downloads){:.btn.download.magnet}
