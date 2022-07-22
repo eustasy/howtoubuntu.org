@@ -84,16 +84,13 @@ nav a:hover svg {
 .btn.download, .btn.download:hover  {
 	color: var(--ubuntu-white);
 	background: var(--ubuntu-orange);
-	border: 2px solid var(--ubuntu-orange-80);
 	margin: 0 auto;
 }
 .btn.download.magnet, .btn.download.magnet:hover  {
 	background: var(--eustasy-error-text);
-	border: 2px solid var(--eustasy-error);
 }
 .btn.download.archive, .btn.download.archive:hover  {
 	background: var(--ubuntu-warm-grey);
-	border: 2px solid var(--ubuntu-warm-grey-80);
 }
 .btn svg {
 	fill: var(--ubuntu-white);
@@ -107,24 +104,24 @@ svg.warning {
 	fill: var(--eustasy-error-text);
 }
 div.warning {
-	border: 2px solid var(--eustasy-error-text);
-	background: var(--eustasy-error);
+	background: var(--eustasy-error-text);
 	border-radius: 0.3rem;
 	padding: 1rem 1rem 0.3rem;
 }
 .warning a {
-	color: var(--ubuntu-canonical-aubergine);
+	color: var(--ubuntu-white)
+	text-decoration: underline;
 }
 .warning h2,
 .warning h3 {
-	color: var(--ubuntu-text-grey);
+	color: var(--ubuntu-white);
 }
 .warning h2 svg {
-	fill: var(--ubuntu-text-grey);
+	fill: var(--ubuntu-white);
 	padding-top: 5px;
 }
 .warning h3 svg {
-	fill: var(--ubuntu-text-grey);
+	fill: var(--ubuntu-white);
 	vertical-align: sub;
 }
 
