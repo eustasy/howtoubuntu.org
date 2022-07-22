@@ -123,6 +123,9 @@ div.warning {
 	fill: var(--ubuntu-text-grey);
 	padding-top: 5px;
 }
+.warning h3 svg {
+	vertical-align: sub;
+}
 
 /* $Charts */
 .chart__bar--orange {
