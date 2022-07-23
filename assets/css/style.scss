@@ -20,19 +20,18 @@ a {
 	color: var(--ubuntu-white);
 	text-align: center;
 	background-color: var(--ubuntu-canonical-aubergine);
-	background-image: linear-gradient(120deg, var(--ubuntu-canonical-aubergine), var(--ubuntu-orange));
-	/* Background generated at https://www.joshwcomeau.com/gradient-generator?colors=772953|e95420&angle=120&colorMode=hcl&precision=8&easingCurve=0.25|0.75|0.75|0.25 */
+	/* Background generated at https://www.joshwcomeau.com/gradient-generator?colors=772953|e95420&angle=120&colorMode=hcl&precision=8&easingCurve=0.333|1|0.666|0 */
 	background-image: linear-gradient(
 		120deg,
 		hsl(328deg 49% 31%) 0%,
-		hsl(333deg 53% 35%) 11%,
-		hsl(337deg 57% 38%) 22%,
-		hsl(341deg 59% 41%) 33%,
-		hsl(345deg 60% 44%) 44%,
-		hsl(350deg 60% 47%) 56%,
-		hsl(356deg 61% 51%) 67%,
-		hsl(2deg 67% 54%) 78%,
-		hsl(9deg 75% 53%) 89%,
+		hsl(333deg 53% 35%) 21%,
+		hsl(337deg 57% 38%) 30%,
+		hsl(341deg 59% 41%) 39%,
+		hsl(345deg 60% 44%) 46%,
+		hsl(350deg 60% 47%) 54%,
+		hsl(356deg 61% 51%) 61%,
+		hsl(2deg 67% 54%) 69%,
+		hsl(9deg 75% 53%) 79%,
 		hsl(16deg 82% 52%) 100%
 	);
 }
