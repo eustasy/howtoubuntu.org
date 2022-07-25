@@ -3,19 +3,6 @@ title: Kernels for Ubuntu
 breadcrumb: kernels
 ---
 
-## Most Recent Kernel Tutorials
-
-{% for page in site.pages %}
-{% if page.url contains '/how-to/install-linux-kernel/' %}
-{% unless page.url == '/how-to/install-linux-kernel/' %}
-
-<hr>
-### [{{ page.title }}]({{ page.url | relative_url }})
-
-{% endunless %}
-{% endif %}
-{% endfor %}
-
 ## Supported Ubuntu Kernels
 
 {% assign first_lts = 1 %}
