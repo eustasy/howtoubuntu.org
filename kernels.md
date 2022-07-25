@@ -22,7 +22,6 @@ breadcrumb: kernels
 {% assign first_non_lts = 1 %}
 {% assign sorted = site.data.kernels | sort: 'released' | reverse %}
 {% for kernel in sorted %}
-
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture eol %}{{kernel.eol | date: '%s'}}{% endcapture %}
 {% if eol > nowunix %}
@@ -32,7 +31,7 @@ breadcrumb: kernels
 {% assign url = '/how-to/install-linux-kernel/' | append: url %}
 
 ### {{ nicename }}
-- Supported until **{{release.eol | date: '%B %Y'}}{% if eol < nowunix %}**.{% if release.is-lts and first_lts > 0 %}
+- Supported until **{{release.eol | date: '%B %Y'}}**.{% if release.is-lts and first_lts > 0 %}
 - **Latest LTS kernel**.{% assign first_lts = 0 %}{% elsif release.is-lts %}
 - Previous LTS kernel release, users are recommended to use the newer LTS release.{% elsif first_non_lts > 0 %}
 - Recommended for users who want the latest software and hardware support.{% assign first_non_lts = 0 %}{% else %}
