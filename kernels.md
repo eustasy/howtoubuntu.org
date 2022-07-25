@@ -12,7 +12,7 @@ breadcrumb: kernels
 {% assign mrk = 0 %}
 {% for page in site.pages %}
 {% if mrk < 10 %} 
-{% if page.url contains 'how-to/install-linux-kernel' %}
+{% if page.url contains '/how-to/install-linux-kernel/' %}
 {% unless page.url == '/how-to/install-linux-kernel/' %}
 
 <hr>
