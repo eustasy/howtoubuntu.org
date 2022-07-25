@@ -4,7 +4,7 @@
 ## Latest Tutorials
 
 {% for page in site.pages %}
-{% if page.url contains 'how-to' %}
+{% if page.url contains 'how-to/' %}
 {% unless page.url == '/how-to/' or page.url contains 'install-linux-kernel' %}
 
 <hr>
