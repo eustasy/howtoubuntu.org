@@ -1,38 +1,21 @@
 ---
 ---
 
-You can use the [editor on GitHub](https://github.com/lewisgoddard/pages-test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Latest Tutorials
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+{% for page in site.pages %}
+{% if page.url contains 'how-to' %}
+{% unless page.url == '/how-to/' or page.url contains 'install-linux-kernel' %}
 
-### Markdown
+<hr>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### [{{ page.title }}]({{ page.url | relative_url }})
 
-```markdown
-Syntax highlighted code block
+{{ page.excerpt | markdownify }}
 
-# Header 1
-## Header 2
-### Header 3
+{% endunless %}
+{% endif %}
+{% endfor %}
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lewisgoddard/pages-test/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### [All Tutorials &raquo;]({{ '/how-to/' | relative_url }})
+{:.text-right}
