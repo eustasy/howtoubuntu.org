@@ -5,42 +5,42 @@
 # Releases outside of standard support not listed
 # EOL dates include a -31 for end-of-month, not accurate but required for date sorting.
 
-- '5.18':
+- name: '5.18'
   released: 2022-05-22
   is-lts: false
   eol: 2022-09-31
 
-- '5.15':
+- name: '5.15'
   released: 2021-10-31
   is-lts: true
   eol: 2023-10-31
 
-- '5.10':
+- name: '5.10'
   released: 2020-12-13
   is-lts: true
   eol: 2026-12-31
 
-- '5.4':
+- name: '5.4'
   released: 2019-11-24
   is-lts: true
   eol: 2025-12-31
 
-- '4.19':
+- name: '4.19'
   released: 2018-10-22
   is-lts: true
   eol: 2024-12-31
 
-- '4.14':
+- name: '4.14'
   released: 2017-11-12
   is-lts: true
   eol: 2024-01-31
 
-- '4.9':
+- name: '4.9'
   released: 2016-12-11
   is-lts: true
   eol: 2023-01-31
 
-- '4.4':
+- name: '4.4'
   released: 2016-01-10
   is-lts: true
   eol: 2022-02-31
