@@ -1,4 +1,7 @@
-# Kernels and dates from https://en.wikipedia.org/wiki/Linux_kernel_version_history and https://www.kernel.org/category/releases.html
+# Kernels and dates from:
+# - https://en.wikipedia.org/wiki/Linux_kernel_version_history
+# - https://www.kernel.org/category/releases.html
+# - https://kernel.ubuntu.com/~kernel-ppa/mainline/
 # Releases outside of standard support not listed
 # EOL dates include a -31 for end-of-month, not accurate but required for date sorting.
 
