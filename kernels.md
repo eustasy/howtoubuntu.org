@@ -25,14 +25,14 @@ breadcrumb: kernels
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture eol %}{{kernel.eol | date: '%s'}}{% endcapture %}
 {% if eol > nowunix %}
-{% capture nicename %}Ubuntu Kernel {{ release.version }}{% if release.is-lts %} LTS{% endif %}{% endcapture %}
-{% capture url %}{{ release.version }}{% endcapture %}
+{% capture nicename %}Ubuntu Kernel {{ kernel.version }}{% if kernel.is-lts %} LTS{% endif %}{% endcapture %}
+{% capture url %}{{ kernel.version }}{% endcapture %}
 {% assign url = url | slugify %}
 {% assign url = '/how-to/install-linux-kernel/' | append: url %}
 
 ### {{ nicename }}
-- Supported until **{{release.eol | date: '%B %Y'}}**.{% if release.is-lts and first_lts > 0 %}
-- **Latest LTS kernel**.{% assign first_lts = 0 %}{% elsif release.is-lts %}
+- Supported until **{{kernel.eol | date: '%B %Y'}}**.{% if kernel.is-lts and first_lts > 0 %}
+- **Latest LTS kernel**.{% assign first_lts = 0 %}{% elsif kernel.is-lts %}
 - Previous LTS kernel release, users are recommended to use the newer LTS release.{% elsif first_non_lts > 0 %}
 - Recommended for users who want the latest software and hardware support.{% assign first_non_lts = 0 %}{% else %}
 - No longer recommended for new installs.{% endif %}
