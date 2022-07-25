@@ -14,7 +14,6 @@ breadcrumb: kernels
 {% if eol > nowunix %}
 {% capture nicename %}Ubuntu Kernel {{ kernel.name }}{% if kernel.is-lts %} LTS{% endif %}{% endcapture %}
 {% capture url %}{{ kernel.name }}{% endcapture %}
-{% assign url = url | slugify %}
 {% assign url = '/how-to/install-linux-kernel/' | append: url %}
 
 ### {{ nicename }}
