@@ -41,7 +41,7 @@ Release and support cycles are predominantly in two flavours, long and short. Sh
 - Every forth release is replaced by an LTS release.
 - LTS: Released every **2 years**, supported for 5 years. (First point release after 4 months)
 
-{% include icons/ubuntu-release-support-cycle.svg.html %}
+{% include ubuntu-release-support-cycle.svg.html %}
 
 ## Naming Ubuntu Releases
 
