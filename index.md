@@ -5,8 +5,7 @@
 
 {% for page in site.pages %}
 {% if page.url contains 'how-to/' %}
-{% unless page.url == '/how-to/' or page.url contains 'install-linux-kernel' %}
-
+{% unless page.url contains 'install-linux-kernel' or page.url == '/how-to/' or page.url == '/how-to/install-update-upgrade-to-the-latest-version-of/' %}
 <hr>
 
 ### [{{ page.title }}]({{ page.url | relative_url }})
