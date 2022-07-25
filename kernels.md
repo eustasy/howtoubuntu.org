@@ -25,7 +25,7 @@ breadcrumb: kernels
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture eol %}{{kernel.eol | date: '%s'}}{% endcapture %}
 {% if eol > nowunix %}
-{% capture nicename %}Ubuntu Kernel {{ kernel }}{% if kernel.is-lts %} LTS{% endif %}{% endcapture %}
+{% capture nicename %}Ubuntu Kernel {{ kernel.0 }}{% if kernel.is-lts %} LTS{% endif %}{% endcapture %}
 {% capture url %}{{ kernel.version }}{% endcapture %}
 {% assign url = url | slugify %}
 {% assign url = '/how-to/install-linux-kernel/' | append: url %}
