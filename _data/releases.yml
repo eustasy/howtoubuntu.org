@@ -170,6 +170,30 @@
   kernel: 3.13
   is-lts: true
   eol: 2019-04-25
+
+- saucy:
+  name: Saucy Salamander
+  released: 2013-10-17
+  version: '13.10'
+  kernel: 3.11
+  is-lts: false
+  eol: 2014-07-17
+
+- raring:
+  name: Raring Ringtail
+  released: 2013-04-25
+  version: '13.04'
+  kernel: 3.8
+  is-lts: false
+  eol: 2014-01-27
+
+- quantal:
+  name: Quantal Quetzal
+  released: 2012-10-18
+  version: '12.10'
+  kernel: 3.5
+  is-lts: false
+  eol: 2014-05-16
   
 - precise:
   name: Precise Pangolin
