@@ -1,5 +1,13 @@
 # Kernels and dates from https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions and https://ubuntu.com/about/release-cycle
 
+- kinetic:
+  name: Kinetic Kudu	
+  released: 2022-10-20
+  version: '22.10'
+  kernel: TBA
+  is-lts: false
+  eol: 2023-07-20
+
 - jellyfish:
   name: Jammy Jellyfish
   released: 2022-04-21
