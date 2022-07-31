@@ -54,5 +54,6 @@ Ubuntu release have always had the code-naming convention of an animal name as t
 ### Past Releases
 **Bold** indicates a currently supported release.
 
-{% for release in site.data.releases %}{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}{% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
+{% assign sorted = site.data.releases | sort: 'released' %}
+{% for release in sorted %}{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}{% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
 - {% if posttime > nowunix %}**{% endif %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% if posttime > nowunix %}**{% endif %}{% endfor %}
