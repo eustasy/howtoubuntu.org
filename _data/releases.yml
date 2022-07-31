@@ -1,76 +1,84 @@
 # Kernels and dates from https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions and https://ubuntu.com/about/release-cycle
 
-- precise:
-  name: Precise Pangolin
-  released: 2012-04-26
-  version: '12.04'
-  kernel: 3.2
+- jellyfish:
+  name: Jammy Jellyfish
+  released: 2022-04-21
+  version: '22.04'
+  kernel: 5.15
   is-lts: true
-  eol: 2017-04-28
+  eol: 2027-04-21
 
-- trusty:
-  name: Trusty Tahr
-  released: 2014-04-17
-  version: '14.04'
-  kernel: 3.13
+- impish:
+  name: Impish Indri
+  released: 2021-10-14
+  version: '21.10'
+  kernel: 5.13
+  is-lts: false
+  eol: 2022-07-14
+ 
+- hirsute:
+  name: Hirsute Hippo
+  released: 2021-04-23
+  version: '21.04'
+  kernel: 5.11
+  is-lts: false
+  eol: 2022-01-20
+
+- groovy:
+  name: Groovy Gorilla
+  released: 2020-10-22
+  version: '20.10'
+  kernel: 5.8
+  is-lts: false
+  eol: 2021-07-22
+
+- focal:
+  name: Focal Fossa
+  released: 2020-04-23
+  version: '20.04'
+  kernel: 5.4
   is-lts: true
-  eol: 2019-04-25
+  eol: 2025-04-23
+  point-releases:
+  - version: 20.04.1
+    date: 2020-08-06
+    kernel: 5.4
+  - version: 20.04.2
+    date: 2021-02-04
+    kernel: 5.8
+  - version: 20.04.3
+    date: 2021-08-26
+    kernel: 5.11
+  - version: 20.04.4
+    date: 2022-02-10
+    kernel: 5.13
+  - version: 20.04.5
+    date: 2022-09-01
+    kernel: 5.15
 
-- utpoic:
-  name: Utopic Unicorn
-  released: 2014-10-23
-  version: '14.10'
-  kernel: 3.16
+- eoan:
+  name: Eoan Ermine
+  released: 2019-10-17
+  version: '19.10'
+  kernel: 5.3
   is-lts: false
-  eol: 2015-07-23
-
-- vivid:
-  name: Vivid Vervet
-  released: 2015-04-23
-  version: '15.04'
-  kernel: 3.19
+  eol: 2020-07-17
+ 
+- disco:
+  name: Disco Dingo
+  released: 2019-04-18
+  version: '19.04'
+  kernel: 5.0
   is-lts: false
-  eol: 2016-02-04
+  eol: 2020-01-23
 
-- wily:
-  name: Wily Werewolf
-  released: 2015-10-22
-  version: '15.10'
-  kernel: 4.2
+- cosmic:
+  name: Cosmic Cuttlefish
+  released: 2018-10-18
+  version: '18.10'
+  kernel: 4.18
   is-lts: false
-  eol: 2016-07-28
-
-- xenial:
-  name: Xenial Xerus
-  released: 2016-04-21
-  version: '16.04'
-  kernel: 4.4
-  is-lts: true
-  eol: 2021-04-30
-
-- yakkety:
-  name: Yakkety Yak
-  released: 2016-10-13
-  version: '16.10'
-  kernel: '4.10'
-  is-lts: false
-  eol: 2017-07-20
-
-- zesty:
-  name: Zesty Zapus
-  released: 2017-04-13
-  version: '17.04'
-  kernel: 4.13
-  is-lts: false
-  eol: 2018-01-13
-
-- artful:
-  name: Artful Aardvark
-  released: 2017-10-19
-  version: '17.10'
-  kernel: 4.15
-  is-lts: false
-  eol: 2018-07-19
+  eol: 2019-07-18
 
 - bionic:
   name: Bionic Beaver
@@ -99,82 +107,74 @@
       date: 2021-09-15
       kernel: 5.4
 
-- cosmic:
-  name: Cosmic Cuttlefish
-  released: 2018-10-18
-  version: '18.10'
-  kernel: 4.18
+- artful:
+  name: Artful Aardvark
+  released: 2017-10-19
+  version: '17.10'
+  kernel: 4.15
   is-lts: false
-  eol: 2019-07-18
+  eol: 2018-07-19
 
-- disco:
-  name: Disco Dingo
-  released: 2019-04-18
-  version: '19.04'
-  kernel: 5.0
+- zesty:
+  name: Zesty Zapus
+  released: 2017-04-13
+  version: '17.04'
+  kernel: 4.13
   is-lts: false
-  eol: 2020-01-23
+  eol: 2018-01-13
 
-- eoan:
-  name: Eoan Ermine
-  released: 2019-10-17
-  version: '19.10'
-  kernel: 5.3
+- yakkety:
+  name: Yakkety Yak
+  released: 2016-10-13
+  version: '16.10'
+  kernel: '4.10'
   is-lts: false
-  eol: 2020-07-17
- 
-- focal:
-  name: Focal Fossa
-  released: 2020-04-23
-  version: '20.04'
-  kernel: 5.4
+  eol: 2017-07-20
+
+- xenial:
+  name: Xenial Xerus
+  released: 2016-04-21
+  version: '16.04'
+  kernel: 4.4
   is-lts: true
-  eol: 2025-04-23
-  point-releases:
-  - version: 20.04.1
-    date: 2020-08-06
-    kernel: 5.4
-  - version: 20.04.2
-    date: 2021-02-04
-    kernel: 5.8
-  - version: 20.04.3
-    date: 2021-08-26
-    kernel: 5.11
-  - version: 20.04.4
-    date: 2022-02-10
-    kernel: 5.13
-  - version: 20.04.5
-    date: 2022-09-01
-    kernel: 5.15
+  eol: 2021-04-30
 
-- groovy:
-  name: Groovy Gorilla
-  released: 2020-10-22
-  version: '20.10'
-  kernel: 5.8
+- wily:
+  name: Wily Werewolf
+  released: 2015-10-22
+  version: '15.10'
+  kernel: 4.2
   is-lts: false
-  eol: 2021-07-22
+  eol: 2016-07-28
 
-- hirsute:
-  name: Hirsute Hippo
-  released: 2021-04-23
-  version: '21.04'
-  kernel: 5.11
+- vivid:
+  name: Vivid Vervet
+  released: 2015-04-23
+  version: '15.04'
+  kernel: 3.19
   is-lts: false
-  eol: 2022-01-20
+  eol: 2016-02-04
 
-- impish:
-  name: Impish Indri
-  released: 2021-10-14
-  version: '21.10'
-  kernel: 5.13
+- utpoic:
+  name: Utopic Unicorn
+  released: 2014-10-23
+  version: '14.10'
+  kernel: 3.16
   is-lts: false
-  eol: 2022-07-14
- 
-- jellyfish:
-  name: Jammy Jellyfish
-  released: 2022-04-21
-  version: '22.04'
-  kernel: 5.15
+  eol: 2015-07-23
+
+- trusty:
+  name: Trusty Tahr
+  released: 2014-04-17
+  version: '14.04'
+  kernel: 3.13
   is-lts: true
-  eol: 2027-04-21
+  eol: 2019-04-25
+  
+- precise:
+  name: Precise Pangolin
+  released: 2012-04-26
+  version: '12.04'
+  kernel: 3.2
+  is-lts: true
+  eol: 2017-04-28
