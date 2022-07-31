@@ -202,3 +202,35 @@
   kernel: 3.2
   is-lts: true
   eol: 2017-04-28
+
+- oneiric:
+  name: Oneiric Ocelot
+  released: 2011-10-13
+  version: '11.10'
+  kernel: 3.0
+  is-lts: false
+  eol: 2013-05-09
+
+- natty:
+  name: Natty Narwhal
+  released: 2011-04-28
+  version: '11.04'
+  kernel: 2.6.38
+  is-lts: false
+  eol: 2012-10-28
+
+- maverick:
+  name: Maverick Meerkat
+  released: 2010-10-10
+  version: '10.10'
+  kernel: 2.6.35
+  is-lts: false
+  eol: 2012-04-10
+  
+- lucid:
+  name: Lucid Lynx
+  released: 2010-04-29
+  version: '10.04'
+  kernel: 2.6.32
+  is-lts: true
+  eol: 2013-05-09
