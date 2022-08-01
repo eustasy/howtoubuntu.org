@@ -59,7 +59,8 @@ The numbers in the name relate to the year and month of release. 20.04 was relea
 Ubuntu release have always had the code-naming convention of an animal name as the second part, preceded by an adjective beginning with the same letter. Apart from the first few releases (back in 2004/5), they have been working through the alphabet. While the animals honored in this way are not necessarily unheard of, many of them are either uncommon or infamous in some way.
     
 ### Past Ubuntu Releases
-**Bold** indicates a currently supported release.
+**Bold** indicates a currently supported release.  
+_Italics_ indicates a future release.
 
 {% assign sorted = site.data.releases | sort: 'released' %}
 {% for release in sorted %}{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}{% capture eol %}{{release.eol | date: '%s'}}{% endcapture %}{% capture released %}{{release.released | date: '%s'}}{% endcapture %}
