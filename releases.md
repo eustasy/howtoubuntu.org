@@ -25,16 +25,16 @@ breadcrumb: about ubuntu
 
 {% endif %}
 
-{% if first_non_lts > 0 %}
 {% unless release.is-lts %}
+{% if first_non_lts > 0 %}
 {% assign first_non_lts = 0 %}
 ### {{ nicename }}
 - Supported until {{release.eol | date: '%B %Y'}}.
 - Recommended for users who want the latest software and hardware support.
 - [About {{ nicename }}]({{ url | relative_url }})
 
-{% endunless %}
 {% endif %}
+{% endunless %}
 
 {% endfor %}
 
