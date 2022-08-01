@@ -10,9 +10,6 @@ breadcrumb: about ubuntu
 {% assign sorted = site.data.releases | sort: 'eol' | reverse %}
 {% for release in sorted %}
 
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-{% capture eol %}{{release.eol | date: '%s'}}{% endcapture %}
-{% if eol > nowunix %}
 {% capture nicename %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% endcapture %}
 {% capture url %}{{ release.version }}-{{ release.name }}{% endcapture %}
 {% assign url = url | slugify %}
@@ -33,8 +30,6 @@ breadcrumb: about ubuntu
 - Supported until {{release.eol | date: '%B %Y'}}.
 - Recommended for users who want the latest software and hardware support.
 - [About {{ nicename }}]({{ url | relative_url }})
-
-{% endif %}
 
 {% endif %}
 {% endfor %}
