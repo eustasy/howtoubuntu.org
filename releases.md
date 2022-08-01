@@ -11,28 +11,36 @@ breadcrumb: about ubuntu
 {% for release in sorted %}
 
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-{% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
-{% if posttime > nowunix %}
+{% capture eol %}{{release.eol | date: '%s'}}{% endcapture %}
+{% if eol > nowunix %}
 {% capture nicename %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% endcapture %}
 {% capture url %}{{ release.version }}-{{ release.name }}{% endcapture %}
 {% assign url = url | slugify %}
 {% assign url = '/about-ubuntu/' | append: url %}
 
+{% if release.is-lts and first_lts > 0 %}
+{% assign first_lts = 0 %}
+
 ### {{ nicename }}
-- Supported until {{release.eol | date: '%B %Y'}}.{% if release.is-lts and first_lts > 0 %}
-- Recommended for most users.{% assign first_lts = 0 %}{% elsif release.is-lts %}
-- No longer recommended for new installs.
-- Users are recommended to use the newer LTS release.{% if release.point-releases.size > 4 %}
-- It has now recieved its last planned Kernel upgrade, and any newer hardware will remain unsupported throughout its remaining lifespan.{% endif %}{% elsif first_non_lts > 0 %}
-- Recommended for users who want the latest software and hardware support.{% assign first_non_lts = 0 %}{% else %}
-- No longer recommended for new installs.{% endif %}
+- Supported until {{release.eol | date: '%B %Y'}}.
+- Recommended for most users.
 - [About {{ nicename }}]({{ url | relative_url }})
+
+{% elsif release.is-lts %}
+{% elsif first_non_lts > 0 %}
+{% assign first_non_lts = 0 %}
+### {{ nicename }}
+- Supported until {{release.eol | date: '%B %Y'}}.
+- Recommended for users who want the latest software and hardware support.
+- [About {{ nicename }}]({{ url | relative_url }})
+
+{% endif %}
 
 {% endif %}
 {% endfor %}
 
 ### Ubuntu Server
-- [About Ubuntu Server]({{ '/about-ubuntu/server' | relative_url }})
+- [About Ubuntu Server]({{ '/about-ubuntu/server/' | relative_url }})
 
 ## Release & Support Cycle
 Release and support cycles are predominantly in two flavours, long and short. Short cycles practically require upgrades twice a year (similar to a modern Windows system, whereas Long cycles require major upgrades only after several years of stable operation. Because Ubuntu operates on a process of [Time Based Releases](https://wiki.ubuntu.com/TimeBasedReleases) with set deadlines, rather than waiting for all known issues to be resolved, both the release date and the presence of issues and bugs are reliable.
@@ -55,5 +63,9 @@ Ubuntu release have always had the code-naming convention of an animal name as t
 **Bold** indicates a currently supported release.
 
 {% assign sorted = site.data.releases | sort: 'released' %}
-{% for release in sorted %}{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}{% capture posttime %}{{release.eol | date: '%s'}}{% endcapture %}
-- {% if posttime > nowunix %}**{% endif %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% if posttime > nowunix %}**{% endif %}{% endfor %}
+{% for release in sorted %}
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture eol %}{{release.eol | date: '%s'}}{% endcapture %}
+{% capture release %}{{release.released | date: '%s'}}{% endcapture %}
+- {% if release > nowunix %}_{% elsif eol > nowunix %}**{% endif %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})% if release > nowunix %}_{% elsif eol > nowunix %}**{% endif %}
+{% endfor %}
