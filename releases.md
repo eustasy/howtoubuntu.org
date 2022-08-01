@@ -66,5 +66,5 @@ Ubuntu release have always had the code-naming convention of an animal name as t
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% capture eol %}{{release.eol | date: '%s'}}{% endcapture %}
 {% capture release %}{{release.released | date: '%s'}}{% endcapture %}
-- {% if release > nowunix %}_{% elsif eol > nowunix %}**{% endif %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }})% if release > nowunix %}_{% elsif eol > nowunix %}**{% endif %}
+- {% if release > nowunix %}_{% elsif eol > nowunix and release < nowunix %}**{% endif %}Ubuntu {{ release.version }}{% if release.is-lts %} LTS{% endif %} ({{ release.name }}){% if release > nowunix %}_{% elsif eol > nowunix and release < nowunix %}**{% endif %}
 {% endfor %}
