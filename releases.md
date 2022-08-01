@@ -3,7 +3,7 @@ title: About Ubuntu
 breadcrumb: about ubuntu
 ---
 
-## Ubuntu Releases
+## Current Ubuntu Releases
 
 {% assign first_lts = 1 %}
 {% assign first_non_lts = 1 %}
@@ -58,7 +58,7 @@ The numbers in the name relate to the year and month of release. 20.04 was relea
 ### Adjective Animal
 Ubuntu release have always had the code-naming convention of an animal name as the second part, preceded by an adjective beginning with the same letter. Apart from the first few releases (back in 2004/5), they have been working through the alphabet. While the animals honored in this way are not necessarily unheard of, many of them are either uncommon or infamous in some way.
     
-### Past Releases
+### Past Ubuntu Releases
 **Bold** indicates a currently supported release.
 
 {% assign sorted = site.data.releases | sort: 'released' %}
