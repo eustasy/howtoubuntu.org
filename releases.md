@@ -23,8 +23,8 @@ breadcrumb: about ubuntu
 - Recommended for most users.
 - [About {{ nicename }}]({{ url | relative_url }})
 
-{% elsif release.is-lts %}
-{% elsif first_non_lts > 0 %}
+{% elif release.is-lts %}
+{% elif first_non_lts > 0 %}
 {% assign first_non_lts = 0 %}
 ### {{ nicename }}
 - Supported until {{release.eol | date: '%B %Y'}}.
