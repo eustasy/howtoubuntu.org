@@ -23,15 +23,19 @@ breadcrumb: about ubuntu
 - Recommended for most users.
 - [About {{ nicename }}]({{ url | relative_url }})
 
-{% elif release.is-lts %}
-{% elif first_non_lts > 0 %}
+{% endif %}
+
+{% if first_non_lts > 0 %}
+{% unless release.is-lts %}
 {% assign first_non_lts = 0 %}
 ### {{ nicename }}
 - Supported until {{release.eol | date: '%B %Y'}}.
 - Recommended for users who want the latest software and hardware support.
 - [About {{ nicename }}]({{ url | relative_url }})
 
+{% endunless %}
 {% endif %}
+
 {% endfor %}
 
 ### Ubuntu Server
