@@ -1,6 +1,3 @@
 ---
-title: Redirecting...
-layout: blank
+redirect_to: /releases/
 ---
-
-{% include redirect.html url="https://howtoubuntu.org/releases" %}
