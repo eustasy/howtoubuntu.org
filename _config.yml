@@ -7,4 +7,5 @@ page_excerpts: true
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
 theme: jekyll-theme-cayman
