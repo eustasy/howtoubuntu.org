@@ -15,6 +15,9 @@
   kernel: 5.15
   is-lts: true
   eol: 2027-04-21
+  - version: 22.04.1
+    date: 2022-08-12
+    kernel: 5.15
 
 - impish:
   name: Impish Indri
