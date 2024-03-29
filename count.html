@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Ubuntu 22.10 Countdown</title>
+		<title>Ubuntu Release Countdown</title>
 		<link rel="shortcut icon" href="https://howtoubuntu.org/favicon.ico">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-R5P7WLNNQY"></script>
@@ -43,7 +43,7 @@
 		<div id="count"></div>
 		<script>
 			var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
-			function countdown(yr,m,d){
+			function countdown(yr,m,d,ver){
 				theyear=yr;themonth=m;theday=d
 				var today=new Date()
 				var todayy=today.getYear()
@@ -56,20 +56,20 @@
 				dd=Date.parse(futurestring)-Date.parse(todaystring)
 				dday=Math.floor(dd/(60*60*1000*24)*1)
 				if(dday==0){
-					document.getElementById("count").innerHTML="Ubuntu <span class='light'>22.10</span> comes today!";
-					document.title = "Ubuntu 22.10 comes today!";
+					document.getElementById("count").innerHTML="Ubuntu <span class='light'>" + ver + "</span> comes today!";
+					document.title = "Ubuntu 24.04 comes today!";
 					return
 				} else if(dday<0){
-					document.getElementById("count").innerHTML="Download Ubuntu <span class='light'>22.10</span>";
-					document.title = "Ubuntu 22.10 is here!";
+					document.getElementById("count").innerHTML="Download Ubuntu <span class='light'>" + ver + "</span>";
+					document.title = "Ubuntu  is here!";
 					return
 				} else {
-					document.getElementById("count").innerHTML="Only <span class='light'>"+dday+"</span> days until Ubuntu 22.10";
-					document.title = ""+dday+" days until Ubuntu 22.10";
+					document.getElementById("count").innerHTML="Only <span class='light'>"+dday+"</span> days until Ubuntu " + ver;
+					document.title = ""+dday+" days until Ubuntu " + ver;
 					return
 				}
 			}
-			countdown(2022,10,20)
+			countdown(2024,04,25,"24.04")
 		</script>
 	</body>
 </html>
