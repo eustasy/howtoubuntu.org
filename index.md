@@ -33,15 +33,6 @@
 		<div class="featured-desc">Watch guides, reviews, and explainers.</div>
 	</a>
 </div>
-	<!-- Videos -->
-	<a href="/videos/" class="featured-link videos">
-		<div class="featured-icon">{% include icons/download.svg.html %}</div>
-		<div class="featured-title">About Ubuntu 26.04</div>
-		<div class="featured-desc">Resolute Raccoon (LTS) – Released April 2026</div>
-		<div class="featured-note">Learn about the latest LTS release.</div>
-		<div class="featured-gradient"></div>
-	</a>
-</div>
 
 ## Latest Tutorials
 
