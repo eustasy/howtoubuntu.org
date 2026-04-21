@@ -143,6 +143,17 @@ div.warning {
 }
 
 /* $Charts */
+.breakout-child {
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}
+.float-middle {
+	margin: 0 auto;
+}
 .chart__bar--orange {
 	fill: var(--ubuntu-orange);
 	stroke: var(--ubuntu-orange);
