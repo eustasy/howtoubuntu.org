@@ -5,9 +5,9 @@ breadcrumb: 20.04 focal fossa
 
 {% include unsupported.html %}
 
-## Download Ubuntu 20.04.5 LTS (Focal Fossa)
+## Download Ubuntu 20.04 LTS (Focal Fossa)
 
-[{% include icons/history.svg.html %} Archived Downloads](https://old-releases.ubuntu.com/releases/20.04.5/){:.btn.download.archive}
+[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/focal/){:.btn.download.archive}
 
 ## Release Date
 Ubuntu 20.04 [was released](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule){:title="Ubuntu 20.04 Focal Fossa Release Schedule"} on Thursday the 23rd of April 2020. Since then Ubuntu 20.04 Focal Fossa has provided millions of users all over the world with a free, stable, secure operating system.

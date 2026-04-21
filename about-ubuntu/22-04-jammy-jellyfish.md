@@ -3,9 +3,9 @@ title: About Ubuntu 22.04 Jammy Jellyfish
 breadcrumb: 22.04 jammy jellyfish
 ---
 
-## Download Ubuntu 22.04.5 LTS (Jammy Jellyfish)
+## Download Ubuntu 22.04 LTS (Jammy Jellyfish)
 
-[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/22.04.5/){:.btn.download.archive}
+[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/22.04/){:.btn.download.archive}
 
 ## Release Date
 Ubuntu 22.04 [was released](https://wiki.ubuntu.com/JammyJellyfish/ReleaseSchedule){:title="Ubuntu 22.04 Jammy Jellyfish Release Schedule"} on Thursday the 21st of April 2022. Since then Ubuntu 22.04 Jammy Jellyfish has provided millions of users all over the world with a free, stable, secure operating system.

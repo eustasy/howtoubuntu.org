@@ -7,7 +7,7 @@ breadcrumb: 21.04 hirsute hippo
 
 ## Download Ubuntu 21.04 (Hirsute Hippo)
 
-[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/21.04/){:.btn.download.archive}
+[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/hirsute/){:.btn.download.archive}
 
 ## Release Date
 Ubuntu 21.04 [was released](https://wiki.ubuntu.com/HirsuteHippo/ReleaseSchedule){:title="Ubuntu 21.04 Hirsute Hippo Release Schedule"} on Thursday the 22nd of April 2021. Since then Ubuntu 21.04 Hirsute Hippo has provided millions of users all over the world with a free, stable, secure operating system. It was replaced on Thursday the 14th of October 2021 by [Ubuntu 21.10 (Impish Indri)]({{ '/about-ubuntu/21-10-impish-indri' | relative_url }})

@@ -5,9 +5,9 @@ breadcrumb: 18.04 bionic beaver
 
 {% include unsupported.html %}
 
-## Download Ubuntu 18.04.6 LTS (Bionic Beaver)
+## Download Ubuntu 18.04 LTS (Bionic Beaver)
 
-[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/18.04.6/){:.btn.download.archive}
+[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/bionic/){:.btn.download.archive}
 
 ## Release Date
 Ubuntu 18.04 [was released](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule){:title="Ubuntu 18.04 Bionic Beaver Release Schedule"} on Thursday the 26th of April 2018 . Since then Ubuntu 18.04 Bionic Beaver has provided millions of users all over the world with a free, stable, secure operating system.
