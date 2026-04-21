@@ -7,9 +7,7 @@ breadcrumb: 21.10 impish indri
 
 ## Download Ubuntu 21.10 (Impish Indri)
 
-[{% include icons/download.svg.html %} Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download} [{% include icons/heart.svg.html %} Alternative Download Methods](https://ubuntu.com/download/alternative-downloads){:.btn.download.magnet}
-
-[Install Ubuntu 21.10](https://howtoubuntu.org/how-to-install-ubuntu-21-10-impish-indri)
+[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/21.10/){:.btn.download.archive}
 
 ## Release Date
 Ubuntu 21.10 [was released](https://wiki.ubuntu.com/ImpishIndri/ReleaseSchedule){:title="Ubuntu 21.10 Impish Indri Release Schedule"} on Thursday the 14th of October 2021. Since then Ubuntu 21.10 Impish Indri has provided millions of users all over the world with a free, stable, secure operating system.

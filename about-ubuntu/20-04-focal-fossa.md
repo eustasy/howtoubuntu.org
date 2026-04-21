@@ -3,11 +3,11 @@ title: About Ubuntu 20.04 Focal Fossa
 breadcrumb: 20.04 focal fossa
 ---
 
-## Download Ubuntu 20.04.3 LTS (Focal Fossa)
+{% include unsupported.html %}
 
-[{% include icons/download.svg.html %} Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download} [{% include icons/heart.svg.html %} Alternative Download Methods](https://ubuntu.com/download/alternative-downloads){:.btn.download.magnet}
+## Download Ubuntu 20.04.5 LTS (Focal Fossa)
 
-[Install Ubuntu 20.04](https://howtoubuntu.org/how-to-install-ubuntu-20-04-focal-fossa)
+[{% include icons/history.svg.html %} Archived Downloads](https://old-releases.ubuntu.com/releases/20.04.5/){:.btn.download.archive}
 
 ## Release Date
 Ubuntu 20.04 [was released](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule){:title="Ubuntu 20.04 Focal Fossa Release Schedule"} on Thursday the 23rd of April 2020. Since then Ubuntu 20.04 Focal Fossa has provided millions of users all over the world with a free, stable, secure operating system.
