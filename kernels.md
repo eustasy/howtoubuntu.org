@@ -45,9 +45,8 @@ You can change the release at the end to any LTS release since 2020.
 <div class="warning">
 	<h3>{% include icons/warning.svg.html %} &nbsp; Warning: Manual kernel installs are usually unnecessary</h3>
 </div>
-<div class="warning-sub">
-	<p>These manual kernel installation guides may not be necessary for most Ubuntu systems. Ubuntu ships the HWE stack by default, so the recommended approach is usually to keep your system updated and let Ubuntu deliver the appropriate kernel through normal updates.</p>
-</div>
+
+These manual kernel installation guides may not be necessary for most Ubuntu systems. Ubuntu ships the HWE stack by default, so the recommended approach is usually to keep your system updated and let Ubuntu deliver the appropriate kernel through normal updates.
 
 {% assign first_lts = 1 %}
 {% assign first_non_lts = 1 %}
