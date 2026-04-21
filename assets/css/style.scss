@@ -143,12 +143,22 @@ nav a:hover svg {
 	background: linear-gradient(180deg, #0000 60%, #0008 100%);
 	pointer-events: none;
 }
+.featured-link.full-width {
+	flex-basis: 100%;
+	min-width: 0;
+	max-width: 100%;
+	margin-bottom: 2rem;
+}
 .featured-link.releases {
 	background: var(--ubuntu-orange-10);
 	color: var(--ubuntu-cool-grey);
 }
 .featured-link.kernels {
 	background: var(--ubuntu-light-aubergine-10);
+	color: var(--ubuntu-cool-grey);
+}
+.featured-link.videos {
+	background: var(--ubuntu-dark-aubergine-10);
 	color: var(--ubuntu-cool-grey);
 }
 .featured-link.about-ubuntu {
