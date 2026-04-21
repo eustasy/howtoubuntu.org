@@ -5,7 +5,7 @@ breadcrumb: 26.04 resolute raccoon
 
 ## Download Ubuntu 26.04 LTS (Resolute Raccoon)
 
-[{% include icons/history.svg.html %} Archived Downloads](https://releases.ubuntu.com/resolute/){:.btn.download.archive}
+[{% include icons/download.svg.html %} Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download} [{% include icons/heart.svg.html %} Alternative Download Methods](https://ubuntu.com/download/alternative-downloads){:.btn.download.magnet}
 
 ## Release Date
 Ubuntu 26.04 [was released](https://wiki.ubuntu.com/ResoluteRaccoon/ReleaseSchedule){:title="Ubuntu 26.04 Resolute Raccoon Release Schedule"} on Thursday the 23rd of April 2026. Ubuntu 26.04 Resolute Raccoon provides millions of users all over the world with a free, stable, secure operating system.
