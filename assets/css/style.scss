@@ -162,9 +162,12 @@ nav a:hover svg {
 	color: var(--ubuntu-cool-grey);
 }
 .featured-link.about-ubuntu {
-	background: url('/assets/images/ubuntu-background/2604.jpg') center/cover, var(--ubuntu-orange-20);
-	color: #fff;
-	text-shadow: 0 2px 8px #000a;
+    background: url("/assets/images/ubuntu-background/2604.jpg") center/cover,var(--ubuntu-orange-20);
+    color: #fff;
+    text-shadow: 0 2px 8px #000a;
+    background-position-y: bottom;
+    min-height: 20rem;
+    padding-top: 12rem;
 }
 .featured-link.about-ubuntu .featured-gradient {
 	display: block;
