@@ -1,3 +1,84 @@
+/* Homepage Featured Links */
+
+/* Homepage Featured Links */
+.featured-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-bottom: 2.5rem;
+	justify-content: center;
+}
+.featured-link {
+	flex: 1 1 220px;
+	min-width: 220px;
+	max-width: 340px;
+	border-radius: 1rem;
+	box-shadow: 0 2px 8px #0001;
+	text-align: center;
+	padding: 2rem 1rem;
+	text-decoration: none;
+	transition: transform 0.12s, box-shadow 0.12s;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.featured-link .featured-icon {
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+.featured-link .featured-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.featured-link .featured-desc {
+	margin-top: 0.5rem;
+}
+.featured-link .featured-note {
+	margin-top: 0.5rem;
+	font-size: 1rem;
+	opacity: 0.85;
+}
+.featured-link .featured-gradient {
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(180deg, #0000 60%, #0008 100%);
+	pointer-events: none;
+}
+.featured-link.releases {
+	background: var(--ubuntu-orange-10);
+	color: var(--ubuntu-cool-grey);
+}
+.featured-link.kernels {
+	background: var(--ubuntu-light-aubergine-10);
+	color: var(--ubuntu-cool-grey);
+}
+.featured-link.about-ubuntu {
+	background: url('/assets/images/ubuntu-background/2604.jpg') center/cover, var(--ubuntu-orange-20);
+	color: #fff;
+	text-shadow: 0 2px 8px #000a;
+}
+.featured-link.about-ubuntu .featured-gradient {
+	display: block;
+}
+.featured-link:not(.about-ubuntu) .featured-gradient {
+	display: none;
+}
+.featured-link:hover, .featured-link:focus {
+	transform: translateY(-4px) scale(1.03);
+	box-shadow: 0 6px 24px #0002;
+	z-index: 2;
+}
+@media (max-width: 900px) {
+	.featured-links {
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+	.featured-link {
+		max-width: 100%;
+	}
+}
 ---
 ---
 

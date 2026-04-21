@@ -1,6 +1,32 @@
 ---
 ---
 
+
+<div class="featured-links">
+	<!-- Releases -->
+	<a href="/releases/" class="featured-link releases">
+		<div class="featured-icon">{% include icons/history.svg.html %}</div>
+		<div class="featured-title">Ubuntu Releases</div>
+		<div class="featured-desc">All Ubuntu versions, LTS and standard.</div>
+	</a>
+
+	<!-- Kernels -->
+	<a href="/kernels/" class="featured-link kernels">
+		<div class="featured-icon">{% include icons/apps.svg.html %}</div>
+		<div class="featured-title">Linux Kernels</div>
+		<div class="featured-desc">Mainline and LTS kernel info & guides.</div>
+	</a>
+
+	<!-- About Ubuntu (current version) -->
+	<a href="/about-ubuntu/26-04-resolute-raccoon/" class="featured-link about-ubuntu">
+		<div class="featured-icon">{% include icons/download.svg.html %}</div>
+		<div class="featured-title">About Ubuntu 26.04</div>
+		<div class="featured-desc">Resolute Raccoon (LTS) – Released April 2026</div>
+		<div class="featured-note">Learn about the latest LTS release.</div>
+		<div class="featured-gradient"></div>
+	</a>
+</div>
+
 ## Latest Tutorials
 
 {% for page in site.pages %}
