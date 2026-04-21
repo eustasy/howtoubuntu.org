@@ -5,6 +5,31 @@
 # Releases outside of standard support not listed
 # EOL dates include a -31 for end-of-month, not accurate but required for date sorting.
 
+- name: '7.0'
+  released: 2026-04-12
+  is-lts: false
+  eol: 2026-08-31
+
+- name: '6.18'
+  released: 2025-11-30
+  is-lts: true
+  eol: 2028-12-31
+
+- name: '6.12'
+  released: 2024-11-17
+  is-lts: true
+  eol: 2028-12-31
+
+- name: '6.6'
+  released: 2023-10-29
+  is-lts: true
+  eol: 2027-12-31
+
+- name: '6.1'
+  released: 2022-12-11
+  is-lts: true
+  eol: 2027-12-31
+
 - name: '5.18'
   released: 2022-05-22
   is-lts: false
@@ -13,7 +38,7 @@
 - name: '5.15'
   released: 2021-10-31
   is-lts: true
-  eol: 2023-10-31
+  eol: 2026-12-31
 
 - name: '5.10'
   released: 2020-12-13
