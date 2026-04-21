@@ -7,7 +7,7 @@ breadcrumb: 22.04 jammy jellyfish
 
 [{% include icons/download.svg.html %} Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download} [{% include icons/heart.svg.html %} Alternative Download Methods](https://ubuntu.com/download/alternative-downloads){:.btn.download.magnet}
 
-[Install Ubuntu 22.04](https://howtoubuntu.org/how-to-install-ubuntu-22-04-jammy-jellyfish) &nbsp;&middot;&nbsp; [After Installing Ubuntu 22.04](https://howtoubuntu.org/things-to-do-after-installing-ubuntu-22-04-jammy-jellyfish)
+[Install Ubuntu 22.04](https://howtoubuntu.org/how-to-install-ubuntu-22-04-jammy-jellyfish)
 
 ## Release Date
 Ubuntu 22.04 [was released](https://wiki.ubuntu.com/JammyJellyfish/ReleaseSchedule){:title="Ubuntu 22.04 Jammy Jellyfish Release Schedule"} on Thursday the 21st of April 2022. Since then Ubuntu 22.04 Jammy Jellyfish has provided millions of users all over the world with a free, stable, secure operating system.
