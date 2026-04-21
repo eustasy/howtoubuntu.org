@@ -5,7 +5,6 @@
 <div class="featured-links">
 	<!-- About Ubuntu (current version) - full width and first -->
 	<a href="/about-ubuntu/26-04-resolute-raccoon/" class="featured-link about-ubuntu full-width">
-		<div class="featured-icon">{% include icons/download.svg.html %}</div>
 		<div class="featured-title">About Ubuntu 26.04</div>
 		<div class="featured-desc">Resolute Raccoon (LTS) – Released April 2026</div>
 		<div class="featured-note">Learn about the latest LTS release.</div>
