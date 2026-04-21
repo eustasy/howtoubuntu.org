@@ -141,6 +141,10 @@ div.warning {
 	fill: var(--ubuntu-white);
 	vertical-align: sub;
 }
+.warning h2:only-child,
+.warning h3:only-child {
+	margin-bottom: 0.7rem;
+}
 
 /* $Charts */
 .breakout-child {
