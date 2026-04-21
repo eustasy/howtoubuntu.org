@@ -1,10 +1,66 @@
 # Kernels and dates from https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions and https://ubuntu.com/about/release-cycle
 
+- resolute:
+  name: Resolute Raccoon
+  released: 2026-04-23
+  version: '26.04'
+  kernel: 7.0
+  is-lts: true
+  eol: 2031-05-29
+
+- questing:
+  name: Questing Quokka
+  released: 2025-10-09
+  version: '25.10'
+  kernel: 6.17
+  is-lts: false
+  eol: 2026-07-09
+
+- plucky:
+  name: Plucky Puffin
+  released: 2025-04-17
+  version: '25.04'
+  kernel: 6.14
+  is-lts: false
+  eol: 2026-01-15
+
+- oracular:
+  name: Oracular Oriole
+  released: 2024-10-10
+  version: '24.10'
+  kernel: 6.11
+  is-lts: false
+  eol: 2025-07-10
+
+- noble:
+  name: Noble Numbat
+  released: 2024-04-25
+  version: '24.04'
+  kernel: 6.8
+  is-lts: true
+  eol: 2029-05-31
+
+- mantic:
+  name: Mantic Minotaur
+  released: 2023-10-12
+  version: '23.10'
+  kernel: 6.5
+  is-lts: false
+  eol: 2024-07-11
+
+- lunar:
+  name: Lunar Lobster
+  released: 2023-04-20
+  version: '23.04'
+  kernel: 6.2
+  is-lts: false
+  eol: 2024-01-25
+
 - kinetic:
-  name: Kinetic Kudu	
+  name: Kinetic Kudu
   released: 2022-10-20
   version: '22.10'
-  kernel: TBA
+  kernel: 5.19
   is-lts: false
   eol: 2023-07-20
 
@@ -14,7 +70,7 @@
   version: '22.04'
   kernel: 5.15
   is-lts: true
-  eol: 2027-04-21
+  eol: 2027-06-01
   point-releases:
   - version: 22.04.1
     date: 2022-08-12
@@ -30,7 +86,7 @@
  
 - hirsute:
   name: Hirsute Hippo
-  released: 2021-04-23
+  released: 2021-04-22
   version: '21.04'
   kernel: 5.11
   is-lts: false
@@ -50,7 +106,7 @@
   version: '20.04'
   kernel: 5.4
   is-lts: true
-  eol: 2025-04-23
+  eol: 2025-05-29
   point-releases:
   - version: 20.04.1
     date: 2020-08-06
@@ -98,7 +154,7 @@
   version: '18.04'
   kernel: 4.15
   is-lts: true
-  eol: 2023-04-26
+  eol: 2023-05-31
   point-releases:
     - version: 18.04.1
       date: 2018-07-26
@@ -123,7 +179,7 @@
   name: Artful Aardvark
   released: 2017-10-19
   version: '17.10'
-  kernel: 4.15
+  kernel: 4.13
   is-lts: false
   eol: 2018-07-19
 
@@ -131,7 +187,7 @@
   name: Zesty Zapus
   released: 2017-04-13
   version: '17.04'
-  kernel: 4.13
+  kernel: 4.10
   is-lts: false
   eol: 2018-01-13
 
@@ -139,7 +195,7 @@
   name: Yakkety Yak
   released: 2016-10-13
   version: '16.10'
-  kernel: '4.10'
+  kernel: 4.8
   is-lts: false
   eol: 2017-07-20
 
@@ -167,7 +223,7 @@
   is-lts: false
   eol: 2016-02-04
 
-- utpoic:
+- utopic:
   name: Utopic Unicorn
   released: 2014-10-23
   version: '14.10'
@@ -295,7 +351,7 @@
   is-lts: false
   eol: 2008-10-19
   
-- feisty:
+- edgy:
   name: Edgy Eft
   released: 2006-10-26
   version: '6.10'
@@ -319,7 +375,7 @@
   is-lts: false
   eol: 2007-04-13
   
-- goary:
+- hoary:
   name: Hoary Hedgehog
   released: 2005-04-08
   version: '5.04'
