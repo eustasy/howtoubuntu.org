@@ -57,11 +57,11 @@
 				dday=Math.floor(dd/(60*60*1000*24)*1)
 				if(dday==0){
 					document.getElementById("count").innerHTML="Ubuntu <span class='light'>" + ver + "</span> comes today!";
-					document.title = "Ubuntu 24.04 comes today!";
+					document.title = "Ubuntu " + ver + " comes today!";
 					return
 				} else if(dday<0){
 					document.getElementById("count").innerHTML="Download Ubuntu <span class='light'>" + ver + "</span>";
-					document.title = "Ubuntu  is here!";
+					document.title = "Ubuntu " + ver + " is here!";
 					return
 				} else {
 					document.getElementById("count").innerHTML="Only <span class='light'>"+dday+"</span> days until Ubuntu " + ver;
@@ -69,7 +69,7 @@
 					return
 				}
 			}
-			countdown(2024,04,25,"24.04")
+			countdown(2026,04,23,"26.04")
 		</script>
 	</body>
 </html>
