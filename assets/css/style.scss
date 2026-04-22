@@ -177,6 +177,7 @@ nav a:hover svg {
 }
 .featured-link:hover, .featured-link:focus {
 	transform: translateY(-4px) scale(1.03);
+	text-decoration: none;
 	box-shadow: 0 6px 24px #0002;
 	z-index: 2;
 }
