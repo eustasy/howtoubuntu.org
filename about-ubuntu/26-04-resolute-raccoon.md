@@ -7,6 +7,18 @@ breadcrumb: 26.04 resolute raccoon
 
 [{% include icons/download.svg.html %} Download Ubuntu](https://www.ubuntu.com/download/desktop){:.btn.download} [{% include icons/heart.svg.html %} Alternative Download Methods](https://ubuntu.com/download/alternative-downloads){:.btn.download.magnet}
 
+## Recommended System Requirements
+
+> **Note:** These are recommendations only. Ubuntu 26.04 raised its recommended RAM target this year to better reflect modern multitasking, with the previous bump in 2019. Ubuntu 26.04 can still run on less, but performance may be impacted.
+
+**Ubuntu 26.04 LTS (Resolute Raccoon) Recommended Requirements:**
+
+- **Processor:** 2 GHz dual-core (64-bit)
+- **Memory:** 6 GB RAM
+- **Storage:** 25 GB free hard drive space
+
+Earlier releases had lower requirements, but the above is recommended for a comfortable experience. Ubuntu flavours like Lubuntu may work better on older or low-memory hardware.
+
 ## Release Date
 Ubuntu 26.04 [was released](https://wiki.ubuntu.com/ResoluteRaccoon/ReleaseSchedule){:title="Ubuntu 26.04 Resolute Raccoon Release Schedule"} on Thursday the 23rd of April 2026. Ubuntu 26.04 Resolute Raccoon provides millions of users all over the world with a free, stable, secure operating system.
 
