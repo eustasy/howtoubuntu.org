@@ -14,5 +14,5 @@ Ubuntu 26.10 [was released](https://releases.ubuntu.com/stonking/){:title="Ubunt
 Ubuntu 26.10 Stonking Stingray is a standard release, supported until July 2027. It ships with Linux kernel 7.3.
 
 ## The Stingray
-> "Stingrays are a group of rays, a type of cartilaginous fish. They are classified in the suborder Myliobatoidei of the order Myliobatiformes and consist of eleven families. There are about 220 known stingray species organized into 29 genera."
+> "Stingrays are a group of rays, a type of cartilaginous fish. They are classified in the suborder Myliobatoidei of the order Myliobatiformes and consist of eleven families […] There are about 220 known stingray species organized into 29 genera."
 — [Wikipedia](https://en.wikipedia.org/wiki/Stingray){:title="Stingray from Wikipedia, the free encyclopedia"}
