@@ -1,5 +1,13 @@
 # Kernels and dates from https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions and https://ubuntu.com/about/release-cycle
 
+- stonking:
+  name: Stonking Stingray
+  released: 2026-10-15
+  version: '26.10'
+  kernel: 7.3
+  is-lts: false
+  eol: 2027-07-15
+
 - resolute:
   name: Resolute Raccoon
   released: 2026-04-23
